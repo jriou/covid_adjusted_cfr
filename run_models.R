@@ -71,7 +71,13 @@ print(T_model10,pars=c("beta","eta","delta","epsilon","rho_K","pi"))
 # Create data and bash files
 bashfile_rdump("model10",data_list_model10,warmup=500,iter=500,adapt_delta=0.8,max_depth=10,init=0.5,timelimit=96,chains=4,priorpredcheck=FALSE)
 
-# Copy on cluster
+# Copy on cluster, get cmdstan chains
+S_model10 = read_stan_csv(paste0("posterior_samples/",dir("posterior_samples",pattern = 'S_model10_2020-03-02-17-48-36_[[:digit:]]+.csv')))
+D_S_model10 = read_rdump("posterior_samples/data_S_model10.R")
+check_hmc_diagnostics(S_model10)
+print(S_model10,pars=c("beta","eta","epsilon","rho_K","pi"),digits_summary=4)
+save(S_model10,D_S_model10,
+  file="model10_2020-03-02.Rdata")
 
 # Load
 load("model/model10_2020-02-28.Rdata")
