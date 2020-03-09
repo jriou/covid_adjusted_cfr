@@ -12,6 +12,3 @@
 *.cb2
 .*.lb
 *.gz
-*.Rproj
-.Rproj.user
-*.Rhistory
