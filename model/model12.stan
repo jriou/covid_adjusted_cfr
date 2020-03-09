@@ -22,8 +22,8 @@ functions {
     real eta; // reduction in transmission rate after quarantine
     real xi; // slope of quarantine implementation
     real nu; // shift of quarantine implementation
-    real tau; // incubation period
-    real mu; // infectious period
+    real tau; // incubation rate
+    real mu; // infectious rate
     real psi; // probability of symptoms
     real p_tmax; // tau is 0 after tmax (stop "recruiting")
     real p_tswitch;

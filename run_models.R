@@ -66,7 +66,7 @@ T_model10 = sampling(M_model10,
                     chains = 1,
                     init=0,
                     control=list(max_treedepth=10,adapt_delta=0.8))
-print(T_model10,pars=c("beta","eta","delta","epsilon","rho_K","pi"))
+print(T_model10,pars=c("beta","eta","epsilon","rho_K","pi"))
 
 # Create data and bash files
 bashfile_rdump("model10",data_list_model10,warmup=500,iter=500,adapt_delta=0.8,max_depth=10,init=0.5,timelimit=96,chains=4,priorpredcheck=FALSE)

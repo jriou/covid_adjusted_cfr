@@ -17,9 +17,9 @@
 \node[circle, draw, inner sep=0pt, minimum size=1cm] (I) at (8,-1.5) {$I_k$};
 \node[circle, draw, inner sep=0pt, minimum size=1cm] (A) at (8,1.5) {$A_k$};
 \node[circle, draw, inner sep=0pt, minimum size=1cm] (R) at (12,0) {$R_k$};
-%\node[circle, draw, inner sep=0pt, minimum size=1cm,dashed] (C) at (8,-3) {$C_k$};
 
-\draw[->,>=latex] (S) edge node[yshift=13pt] { $\beta S_k \sum_k I_k$} (E);
+
+\draw[->,>=latex] (S) edge node[above] { $\lambda_k$} (E);
 %\draw[->,>=latex] (E) edge[bend left=16] node[yshift=-13pt] {  } (C);
 \draw[->,>=latex] (E) edge node[above] { $\tau\psi$ } (I);
 \draw[->,>=latex] (E) edge node[yshift=13pt] { $\tau(1-\psi)$ } (A);
