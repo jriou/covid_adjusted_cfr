@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: supplementary.aux
+The style file: vancouver.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sup_bib.bib
+Warning--empty author and editor in Worldometers.info
+Warning--missing publisher in Worldometers.info
+Warning--there's a month but no year in Worldometers.info
+Warning--empty author and editor in diamond2
+Warning--missing publisher in diamond2
+You've used 6 entries,
+            3170 wiz_defined-function locations,
+            677 strings with 6342 characters,
+and the built_in function-call counts, 14296 in all, are:
+= -- 1691
+> -- 96
+< -- 1
++ -- 50
+- -- 24
+* -- 1277
+:= -- 1568
+add.period$ -- 21
+call.type$ -- 6
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 776
+empty$ -- 1426
+format.name$ -- 27
+if$ -- 3308
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 63
+newline$ -- 32
+num.names$ -- 6
+pop$ -- 110
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 186
+stack$ -- 0
+substring$ -- 3307
+swap$ -- 170
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 55
+width$ -- 7
+write$ -- 65
+(There were 5 warnings)

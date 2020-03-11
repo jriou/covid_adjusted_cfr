@@ -86,7 +86,7 @@ data_list_model13$p_psi=c(369,329)
 bashfile_rdump("model13",id="B",data_list_model13,warmup=500,iter=500,adapt_delta=0.8,max_depth=10,init=0.5,timelimit=96,chains=4)
 
 # Copy on cluster
-# system("scp /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/models/model13.stan /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/sb_model13.sh /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/data_SIM_model13* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/data_S_model13* UBELIX:projects/COVID_age/model/.")
+# system("scp /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/models/model13.stan /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/sb_model13* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/data_SIM_model13* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/data_S_model13* UBELIX:projects/COVID_age/model/.")
 
 # Copy back posterior samples
 system("scp  UBELIX:projects/covid_adjusted_cfr/model/S_model13_2020-03-02* UBELIX:projects/covid_adjusted_cfr/model/SIM_model13_2020-03-02* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/posterior_samples/.")
