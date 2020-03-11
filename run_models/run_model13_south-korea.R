@@ -363,6 +363,9 @@ save(
 # Retrieve from cluster
 system("scp  UBELIX:projects/COVID_age/model/model12_2020-03-02.Rdata /home/julien/Dropbox/Unibe/covid-19/COVID_age/model/.")
 
+system("scp  UBELIX:projects/COVID_age/model/data_SIM_model13.R /home/julien/Dropbox/Unibe/covid-19/COVID_age/model/.")
+
+
 # Load
 load("model/model12_2020-03-02.Rdata")
 

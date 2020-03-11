@@ -1,0 +1,613 @@
+measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+5,Prevalence,6,China,1,Male,5,1 to 4,508,Chronic respiratory diseases,1,Number,2017,1804194.61803,2605819.02791,1143066.05022
+5,Prevalence,6,China,2,Female,5,1 to 4,508,Chronic respiratory diseases,1,Number,2017,1366172.22217,2003719.00704,855366.867107
+5,Prevalence,6,China,1,Male,5,1 to 4,508,Chronic respiratory diseases,2,Percent,2017,0.0643044903387,0.093197721264,0.0407876753582
+5,Prevalence,6,China,2,Female,5,1 to 4,508,Chronic respiratory diseases,2,Percent,2017,0.05556815491,0.0813063153937,0.0345881581892
+5,Prevalence,6,China,1,Male,5,1 to 4,508,Chronic respiratory diseases,3,Rate,2017,5391.4465415899995,7786.928220309999,3415.80638901
+5,Prevalence,6,China,2,Female,5,1 to 4,508,Chronic respiratory diseases,3,Rate,2017,4786.8706228500005,7020.742696689999,2997.08225761
+5,Prevalence,6,China,1,Male,6,5 to 9,508,Chronic respiratory diseases,1,Number,2017,2460601.50466,3532029.14754,1591086.05479
+5,Prevalence,6,China,2,Female,6,5 to 9,508,Chronic respiratory diseases,1,Number,2017,1759055.64818,2533109.86828,1143211.5278
+5,Prevalence,6,China,1,Male,6,5 to 9,508,Chronic respiratory diseases,2,Percent,2017,0.0710212599081,0.10178381195,0.0460650110733
+5,Prevalence,6,China,2,Female,6,5 to 9,508,Chronic respiratory diseases,2,Percent,2017,0.0592873066555,0.0852717700753,0.038755075174
+5,Prevalence,6,China,1,Male,6,5 to 9,508,Chronic respiratory diseases,3,Rate,2017,6277.091257679999,9010.34533301,4058.92313153
+5,Prevalence,6,China,2,Female,6,5 to 9,508,Chronic respiratory diseases,3,Rate,2017,5344.19014625,7695.84567233,3473.1930102799997
+5,Prevalence,6,China,1,Male,7,10 to 14,508,Chronic respiratory diseases,1,Number,2017,1403286.91686,1837556.28073,1034820.17476
+5,Prevalence,6,China,2,Female,7,10 to 14,508,Chronic respiratory diseases,1,Number,2017,1049432.72602,1359312.53575,776360.995107
+5,Prevalence,6,China,1,Male,7,10 to 14,508,Chronic respiratory diseases,2,Percent,2017,0.0410101627521,0.0539690609296,0.0302516860837
+5,Prevalence,6,China,2,Female,7,10 to 14,508,Chronic respiratory diseases,2,Percent,2017,0.0348558707416,0.0451870778119,0.0257949041418
+5,Prevalence,6,China,1,Male,7,10 to 14,508,Chronic respiratory diseases,3,Rate,2017,3525.51847092,4616.54600441,2599.80877492
+5,Prevalence,6,China,2,Female,7,10 to 14,508,Chronic respiratory diseases,3,Rate,2017,3118.08493712,4038.8029051099998,2306.7314984600002
+5,Prevalence,6,China,1,Male,8,15 to 19,508,Chronic respiratory diseases,1,Number,2017,971436.196278,1237258.52595,741721.170156
+5,Prevalence,6,China,2,Female,8,15 to 19,508,Chronic respiratory diseases,1,Number,2017,906782.514154,1127685.77009,707208.55684
+5,Prevalence,6,China,1,Male,8,15 to 19,508,Chronic respiratory diseases,2,Percent,2017,0.0259458637582,0.0330282192937,0.0197959502614
+5,Prevalence,6,China,2,Female,8,15 to 19,508,Chronic respiratory diseases,2,Percent,2017,0.0264945703378,0.0330631725943,0.0207532580181
+5,Prevalence,6,China,1,Male,8,15 to 19,508,Chronic respiratory diseases,3,Rate,2017,2374.131145,3023.78479628,1812.72155363
+5,Prevalence,6,China,2,Female,8,15 to 19,508,Chronic respiratory diseases,3,Rate,2017,2516.26902952,3129.26278796,1962.4628410999999
+5,Prevalence,6,China,1,Male,9,20 to 24,508,Chronic respiratory diseases,1,Number,2017,902289.694243,1105907.81625,718105.076371
+5,Prevalence,6,China,2,Female,9,20 to 24,508,Chronic respiratory diseases,1,Number,2017,1117524.95489,1344126.93287,911365.500209
+5,Prevalence,6,China,1,Male,9,20 to 24,508,Chronic respiratory diseases,2,Percent,2017,0.0202335648399,0.024770862405,0.0160990734415
+5,Prevalence,6,China,2,Female,9,20 to 24,508,Chronic respiratory diseases,2,Percent,2017,0.0260225054726,0.0312783119957,0.0211818560381
+5,Prevalence,6,China,1,Male,9,20 to 24,508,Chronic respiratory diseases,3,Rate,2017,1902.7829032299999,2332.18056101,1514.36735979
+5,Prevalence,6,China,2,Female,9,20 to 24,508,Chronic respiratory diseases,3,Rate,2017,2527.54446386,3040.0579181999997,2061.2665645899997
+5,Prevalence,6,China,1,Male,10,25 to 29,508,Chronic respiratory diseases,1,Number,2017,1261581.26523,1509319.38556,1049579.13788
+5,Prevalence,6,China,2,Female,10,25 to 29,508,Chronic respiratory diseases,1,Number,2017,1862847.39609,2205126.43579,1560645.7656
+5,Prevalence,6,China,1,Male,10,25 to 29,508,Chronic respiratory diseases,2,Percent,2017,0.02128413928,0.0253764607627,0.0177328166137
+5,Prevalence,6,China,2,Female,10,25 to 29,508,Chronic respiratory diseases,2,Percent,2017,0.031197092837,0.0369166218854,0.0260848951792
+5,Prevalence,6,China,1,Male,10,25 to 29,508,Chronic respiratory diseases,3,Rate,2017,2033.95990983,2433.3708861699997,1692.16359458
+5,Prevalence,6,China,2,Female,10,25 to 29,508,Chronic respiratory diseases,3,Rate,2017,3055.33968049,3616.72690629,2559.68521352
+5,Prevalence,6,China,1,Male,11,30 to 34,508,Chronic respiratory diseases,1,Number,2017,1480403.88409,1724025.11987,1262714.07958
+5,Prevalence,6,China,2,Female,11,30 to 34,508,Chronic respiratory diseases,1,Number,2017,2170333.93382,2529539.08107,1853093.00687
+5,Prevalence,6,China,1,Male,11,30 to 34,508,Chronic respiratory diseases,2,Percent,2017,0.0253701830961,0.0295970026406,0.021688980848
+5,Prevalence,6,China,2,Female,11,30 to 34,508,Chronic respiratory diseases,2,Percent,2017,0.0374251431788,0.0436943837069,0.0319514166494
+5,Prevalence,6,China,1,Male,11,30 to 34,508,Chronic respiratory diseases,3,Rate,2017,2448.12918588,2851.0032015399997,2088.1377202999997
+5,Prevalence,6,China,2,Female,11,30 to 34,508,Chronic respiratory diseases,3,Rate,2017,3686.4305939299998,4296.56013376,3147.5795717299998
+5,Prevalence,6,China,1,Male,12,35 to 39,508,Chronic respiratory diseases,1,Number,2017,1490225.03478,1717186.30483,1289367.40025
+5,Prevalence,6,China,2,Female,12,35 to 39,508,Chronic respiratory diseases,1,Number,2017,2058392.79545,2367275.60381,1786562.90322
+5,Prevalence,6,China,1,Male,12,35 to 39,508,Chronic respiratory diseases,2,Percent,2017,0.0309149627296,0.035636716924,0.0267517620426
+5,Prevalence,6,China,2,Female,12,35 to 39,508,Chronic respiratory diseases,2,Percent,2017,0.0435208235813,0.0500813136079,0.0377727831237
+5,Prevalence,6,China,1,Male,12,35 to 39,508,Chronic respiratory diseases,3,Rate,2017,3006.64384558,3464.55569771,2601.39808966
+5,Prevalence,6,China,2,Female,12,35 to 39,508,Chronic respiratory diseases,3,Rate,2017,4307.11023082,4953.43599863,3738.3163094300003
+5,Prevalence,6,China,1,Male,13,40 to 44,508,Chronic respiratory diseases,1,Number,2017,2130243.67433,2446640.85201,1856552.60791
+5,Prevalence,6,China,2,Female,13,40 to 44,508,Chronic respiratory diseases,1,Number,2017,2745865.55371,3143976.97841,2401271.32892
+5,Prevalence,6,China,1,Male,13,40 to 44,508,Chronic respiratory diseases,2,Percent,2017,0.0385494058099,0.0442524662662,0.0336664786227
+5,Prevalence,6,China,2,Female,13,40 to 44,508,Chronic respiratory diseases,2,Percent,2017,0.0508270304425,0.0581338198088,0.0443841472692
+5,Prevalence,6,China,1,Male,13,40 to 44,508,Chronic respiratory diseases,3,Rate,2017,3775.83502862,4336.64577568,3290.7204250299997
+5,Prevalence,6,China,2,Female,13,40 to 44,508,Chronic respiratory diseases,3,Rate,2017,5048.045431619999,5779.9401728,4414.53761116
+5,Prevalence,6,China,1,Male,14,45 to 49,508,Chronic respiratory diseases,1,Number,2017,3086207.10093,3505123.85024,2703902.2336
+5,Prevalence,6,China,2,Female,14,45 to 49,508,Chronic respiratory diseases,1,Number,2017,3618698.89477,4080658.8312,3184609.57169
+5,Prevalence,6,China,1,Male,14,45 to 49,508,Chronic respiratory diseases,2,Percent,2017,0.049355947233,0.0559634718744,0.043256956248
+5,Prevalence,6,China,2,Female,14,45 to 49,508,Chronic respiratory diseases,2,Percent,2017,0.0593537331934,0.0669756276837,0.0522038132842
+5,Prevalence,6,China,1,Male,14,45 to 49,508,Chronic respiratory diseases,3,Rate,2017,4855.06975077,5514.08904894,4253.64647092
+5,Prevalence,6,China,2,Female,14,45 to 49,508,Chronic respiratory diseases,3,Rate,2017,5904.71852111,6658.50972396,5196.40447224
+5,Prevalence,6,China,1,Male,15,50 to 54,508,Chronic respiratory diseases,1,Number,2017,3854411.12796,4405513.21825,3357354.68049
+5,Prevalence,6,China,2,Female,15,50 to 54,508,Chronic respiratory diseases,1,Number,2017,4223324.34712,4819720.82914,3710744.92464
+5,Prevalence,6,China,1,Male,15,50 to 54,508,Chronic respiratory diseases,2,Percent,2017,0.0649696336351,0.0742209100235,0.0565662440448
+5,Prevalence,6,China,2,Female,15,50 to 54,508,Chronic respiratory diseases,2,Percent,2017,0.0712892492007,0.0813742070393,0.0626842002797
+5,Prevalence,6,China,1,Male,15,50 to 54,508,Chronic respiratory diseases,3,Rate,2017,6425.07964075,7343.73483938,5596.51539192
+5,Prevalence,6,China,2,Female,15,50 to 54,508,Chronic respiratory diseases,3,Rate,2017,7098.56757838,8100.99135244,6237.0235977
+5,Prevalence,6,China,1,Male,16,55 to 59,508,Chronic respiratory diseases,1,Number,2017,3528455.51207,3997209.89068,3078888.31024
+5,Prevalence,6,China,2,Female,16,55 to 59,508,Chronic respiratory diseases,1,Number,2017,3484527.15379,3934125.46277,3046798.67517
+5,Prevalence,6,China,1,Male,16,55 to 59,508,Chronic respiratory diseases,2,Percent,2017,0.0873634492151,0.0988035059346,0.0763272446556
+5,Prevalence,6,China,2,Female,16,55 to 59,508,Chronic respiratory diseases,2,Percent,2017,0.0877347270446,0.0990368513697,0.076724346788
+5,Prevalence,6,China,1,Male,16,55 to 59,508,Chronic respiratory diseases,3,Rate,2017,8669.22408089,9820.92819992,7564.66181596
+5,Prevalence,6,China,2,Female,16,55 to 59,508,Chronic respiratory diseases,3,Rate,2017,8743.95600582,9872.16297926,7645.534788079999
+5,Prevalence,6,China,1,Male,17,60 to 64,508,Chronic respiratory diseases,1,Number,2017,4937861.3379,5673183.35958,4321110.3903
+5,Prevalence,6,China,2,Female,17,60 to 64,508,Chronic respiratory diseases,1,Number,2017,4712267.26342,5437422.33551,4059593.72406
+5,Prevalence,6,China,1,Male,17,60 to 64,508,Chronic respiratory diseases,2,Percent,2017,0.119478506407,0.137373062106,0.104640192943
+5,Prevalence,6,China,2,Female,17,60 to 64,508,Chronic respiratory diseases,2,Percent,2017,0.114468778441,0.1321418731,0.098630124251
+5,Prevalence,6,China,1,Male,17,60 to 64,508,Chronic respiratory diseases,3,Rate,2017,11889.735078,13660.295941600001,10404.6781122
+5,Prevalence,6,China,2,Female,17,60 to 64,508,Chronic respiratory diseases,3,Rate,2017,11422.2312755,13179.9603009,9840.19280079
+5,Prevalence,6,China,1,Male,18,65 to 69,508,Chronic respiratory diseases,1,Number,2017,4876900.20195,5552827.40002,4252362.40091
+5,Prevalence,6,China,2,Female,18,65 to 69,508,Chronic respiratory diseases,1,Number,2017,4713051.60455,5403833.52875,4074734.31656
+5,Prevalence,6,China,1,Male,18,65 to 69,508,Chronic respiratory diseases,2,Percent,2017,0.162201486221,0.18468981581,0.141456144871
+5,Prevalence,6,China,2,Female,18,65 to 69,508,Chronic respiratory diseases,2,Percent,2017,0.15186300121,0.174118978275,0.131274938544
+5,Prevalence,6,China,1,Male,18,65 to 69,508,Chronic respiratory diseases,3,Rate,2017,16179.9193499,18422.4191137,14107.9123714
+5,Prevalence,6,China,2,Female,18,65 to 69,508,Chronic respiratory diseases,3,Rate,2017,15170.2002646,17393.6641705,13115.6076347
+5,Prevalence,6,China,1,Male,19,70 to 74,508,Chronic respiratory diseases,1,Number,2017,4219096.03512,4784412.46163,3692460.55265
+5,Prevalence,6,China,2,Female,19,70 to 74,508,Chronic respiratory diseases,1,Number,2017,4099921.22423,4672670.57947,3549703.6152
+5,Prevalence,6,China,1,Male,19,70 to 74,508,Chronic respiratory diseases,2,Percent,2017,0.211794928084,0.240120516034,0.185346939421
+5,Prevalence,6,China,2,Female,19,70 to 74,508,Chronic respiratory diseases,2,Percent,2017,0.197110047278,0.224667704102,0.17065858208
+5,Prevalence,6,China,1,Male,19,70 to 74,508,Chronic respiratory diseases,3,Rate,2017,21154.3061671,23988.7703907,18513.7859841
+5,Prevalence,6,China,2,Female,19,70 to 74,508,Chronic respiratory diseases,3,Rate,2017,19700.523808600003,22452.6406646,17056.6742042
+5,Prevalence,6,China,1,Male,20,75 to 79,508,Chronic respiratory diseases,1,Number,2017,3504925.0332,4008011.87569,3101766.36049
+5,Prevalence,6,China,2,Female,20,75 to 79,508,Chronic respiratory diseases,1,Number,2017,3487113.38324,4065289.50639,3044007.43529
+5,Prevalence,6,China,1,Male,20,75 to 79,508,Chronic respiratory diseases,2,Percent,2017,0.257704473817,0.294692378021,0.228091792186
+5,Prevalence,6,China,2,Female,20,75 to 79,508,Chronic respiratory diseases,2,Percent,2017,0.23838011723,0.277914046476,0.208081020307
+5,Prevalence,6,China,1,Male,20,75 to 79,508,Chronic respiratory diseases,3,Rate,2017,25753.5490913,29450.1393386,22791.2127872
+5,Prevalence,6,China,2,Female,20,75 to 79,508,Chronic respiratory diseases,3,Rate,2017,23829.5138667,27780.534218000004,20801.5081294
+5,Prevalence,6,China,1,Male,21,80 plus,508,Chronic respiratory diseases,1,Number,2017,3755112.58845,4224310.06025,3374286.94643
+5,Prevalence,6,China,2,Female,21,80 plus,508,Chronic respiratory diseases,1,Number,2017,4856461.32156,5484109.04739,4298408.76321
+5,Prevalence,6,China,1,Male,21,80 plus,508,Chronic respiratory diseases,2,Percent,2017,0.300452266474,0.337977974093,0.269990263589
+5,Prevalence,6,China,2,Female,21,80 plus,508,Chronic respiratory diseases,2,Percent,2017,0.285829096064,0.322763560839,0.252981151042
+5,Prevalence,6,China,1,Male,21,80 plus,508,Chronic respiratory diseases,3,Rate,2017,30035.970254900003,33788.9339742,26989.865141699996
+5,Prevalence,6,China,2,Female,21,80 plus,508,Chronic respiratory diseases,3,Rate,2017,28577.7107268,32271.086203100003,25293.866065600003
+5,Prevalence,6,China,1,Male,5,1 to 4,587,Diabetes mellitus,1,Number,2017,321.16573479,544.66587954,154.365569636
+5,Prevalence,6,China,2,Female,5,1 to 4,587,Diabetes mellitus,1,Number,2017,209.556307811,351.478137259,98.8800650673
+5,Prevalence,6,China,1,Male,5,1 to 4,587,Diabetes mellitus,2,Percent,2017,1.14512091698e-05,1.93710859343e-05,5.40282289676e-06
+5,Prevalence,6,China,2,Female,5,1 to 4,587,Diabetes mellitus,2,Percent,2017,8.52612091382e-06,1.43488170322e-05,4.0592818369e-06
+5,Prevalence,6,China,1,Male,5,1 to 4,587,Diabetes mellitus,3,Rate,2017,0.959734539064,1.62761652387,0.461288215939
+5,Prevalence,6,China,2,Female,5,1 to 4,587,Diabetes mellitus,3,Rate,2017,0.734255108845,1.23152875056,0.346461500954
+5,Prevalence,6,China,1,Male,6,5 to 9,587,Diabetes mellitus,1,Number,2017,4620.76871851,7156.88991077,2677.50538071
+5,Prevalence,6,China,2,Female,6,5 to 9,587,Diabetes mellitus,1,Number,2017,2488.76597559,3838.68651759,1478.51060527
+5,Prevalence,6,China,1,Male,6,5 to 9,587,Diabetes mellitus,2,Percent,2017,0.000133408655904,0.000205643886953,7.76580760018e-05
+5,Prevalence,6,China,2,Female,6,5 to 9,587,Diabetes mellitus,2,Percent,2017,8.38974943489e-05,0.000128998844601,4.87816371826e-05
+5,Prevalence,6,China,1,Male,6,5 to 9,587,Diabetes mellitus,3,Rate,2017,11.7877628181,18.2575077703,6.83042158018
+5,Prevalence,6,China,2,Female,6,5 to 9,587,Diabetes mellitus,3,Rate,2017,7.561124411740001,11.6623204519,4.49186574396
+5,Prevalence,6,China,1,Male,7,10 to 14,587,Diabetes mellitus,1,Number,2017,31323.9002835,46460.5570859,19031.5812579
+5,Prevalence,6,China,2,Female,7,10 to 14,587,Diabetes mellitus,1,Number,2017,14012.6805689,20441.3237485,8978.77759112
+5,Prevalence,6,China,1,Male,7,10 to 14,587,Diabetes mellitus,2,Percent,2017,0.000915414542184,0.00136083760821,0.000559663473793
+5,Prevalence,6,China,2,Female,7,10 to 14,587,Diabetes mellitus,2,Percent,2017,0.000465409143296,0.000686331709759,0.000296972673477
+5,Prevalence,6,China,1,Male,7,10 to 14,587,Diabetes mellitus,3,Rate,2017,78.695944289,116.724206723,47.813594247400005
+5,Prevalence,6,China,2,Female,7,10 to 14,587,Diabetes mellitus,3,Rate,2017,41.634615662,60.7354641179,26.6778331441
+5,Prevalence,6,China,1,Male,8,15 to 19,587,Diabetes mellitus,1,Number,2017,321994.35852,419163.258765,231883.295817
+5,Prevalence,6,China,2,Female,8,15 to 19,587,Diabetes mellitus,1,Number,2017,174506.342191,225533.767759,125609.074404
+5,Prevalence,6,China,1,Male,8,15 to 19,587,Diabetes mellitus,2,Percent,2017,0.00860070028402,0.0112172421315,0.00612765463091
+5,Prevalence,6,China,2,Female,8,15 to 19,587,Diabetes mellitus,2,Percent,2017,0.00509875692988,0.00662047241171,0.00365325072672
+5,Prevalence,6,China,1,Male,8,15 to 19,587,Diabetes mellitus,3,Rate,2017,786.9346828989999,1024.40958169,566.7087109930001
+5,Prevalence,6,China,2,Female,8,15 to 19,587,Diabetes mellitus,3,Rate,2017,484.245006333,625.843160919,348.557916388
+5,Prevalence,6,China,1,Male,9,20 to 24,587,Diabetes mellitus,1,Number,2017,1389918.50698,1798830.78636,1008327.82343
+5,Prevalence,6,China,2,Female,9,20 to 24,587,Diabetes mellitus,1,Number,2017,878857.363276,1121506.12355,641418.806084
+5,Prevalence,6,China,1,Male,9,20 to 24,587,Diabetes mellitus,2,Percent,2017,0.0311678489397,0.040446920881,0.0227599138994
+5,Prevalence,6,China,2,Female,9,20 to 24,587,Diabetes mellitus,2,Percent,2017,0.0204651678722,0.0260695267703,0.0149288373515
+5,Prevalence,6,China,1,Male,9,20 to 24,587,Diabetes mellitus,3,Rate,2017,2931.1131323299996,3793.4429351500003,2126.40015231
+5,Prevalence,6,China,2,Female,9,20 to 24,587,Diabetes mellitus,3,Rate,2017,1987.74179794,2536.54880937,1450.71888126
+5,Prevalence,6,China,1,Male,10,25 to 29,587,Diabetes mellitus,1,Number,2017,2946683.7343,3722874.43759,2248881.25035
+5,Prevalence,6,China,2,Female,10,25 to 29,587,Diabetes mellitus,1,Number,2017,1854141.97045,2291720.91138,1424090.26195
+5,Prevalence,6,China,1,Male,10,25 to 29,587,Diabetes mellitus,2,Percent,2017,0.049712200518,0.0626354418858,0.0380004471352
+5,Prevalence,6,China,2,Female,10,25 to 29,587,Diabetes mellitus,2,Percent,2017,0.0310513551736,0.0383709861865,0.0237936629479
+5,Prevalence,6,China,1,Male,10,25 to 29,587,Diabetes mellitus,3,Rate,2017,4750.73366074,6002.13205764,3625.7151491100003
+5,Prevalence,6,China,2,Female,10,25 to 29,587,Diabetes mellitus,3,Rate,2017,3041.06152091,3758.75439493,2335.71439887
+5,Prevalence,6,China,1,Male,11,30 to 34,587,Diabetes mellitus,1,Number,2017,3614505.02236,4467619.76862,2940965.34375
+5,Prevalence,6,China,2,Female,11,30 to 34,587,Diabetes mellitus,1,Number,2017,2186292.54549,2673164.32344,1751071.69239
+5,Prevalence,6,China,1,Male,11,30 to 34,587,Diabetes mellitus,2,Percent,2017,0.0619396046374,0.0764018342258,0.0504383182337
+5,Prevalence,6,China,2,Female,11,30 to 34,587,Diabetes mellitus,2,Percent,2017,0.0376999604649,0.0461408629204,0.0301869083132
+5,Prevalence,6,China,1,Male,11,30 to 34,587,Diabetes mellitus,3,Rate,2017,5977.27102233,7388.05839709,4863.4451517200005
+5,Prevalence,6,China,2,Female,11,30 to 34,587,Diabetes mellitus,3,Rate,2017,3713.5371665,4540.51544371,2974.29080308
+5,Prevalence,6,China,1,Male,12,35 to 39,587,Diabetes mellitus,1,Number,2017,3530111.22696,4210499.50239,2957823.49903
+5,Prevalence,6,China,2,Female,12,35 to 39,587,Diabetes mellitus,1,Number,2017,2116352.55258,2535842.72191,1751071.10603
+5,Prevalence,6,China,1,Male,12,35 to 39,587,Diabetes mellitus,2,Percent,2017,0.0732301150898,0.0871277377264,0.0612648933239
+5,Prevalence,6,China,2,Female,12,35 to 39,587,Diabetes mellitus,2,Percent,2017,0.0447458800818,0.0535872561414,0.0370037795544
+5,Prevalence,6,China,1,Male,12,35 to 39,587,Diabetes mellitus,3,Rate,2017,7122.27143352,8495.00721047,5967.63684148
+5,Prevalence,6,China,2,Female,12,35 to 39,587,Diabetes mellitus,3,Rate,2017,4428.38886307,5306.15641262,3664.0510462099996
+5,Prevalence,6,China,1,Male,13,40 to 44,587,Diabetes mellitus,1,Number,2017,4671040.4243,5424089.58572,3939251.01079
+5,Prevalence,6,China,2,Female,13,40 to 44,587,Diabetes mellitus,1,Number,2017,2912393.89915,3464076.77455,2450281.12147
+5,Prevalence,6,China,1,Male,13,40 to 44,587,Diabetes mellitus,2,Percent,2017,0.0845282231359,0.0982275104311,0.0713562933132
+5,Prevalence,6,China,2,Female,13,40 to 44,587,Diabetes mellitus,2,Percent,2017,0.0539093742291,0.0641247669789,0.0454110998404
+5,Prevalence,6,China,1,Male,13,40 to 44,587,Diabetes mellitus,3,Rate,2017,8279.37116615,9614.14306864,6982.28194843
+5,Prevalence,6,China,2,Female,13,40 to 44,587,Diabetes mellitus,3,Rate,2017,5354.193943640001,6368.417023540001,4504.63803836
+5,Prevalence,6,China,1,Male,14,45 to 49,587,Diabetes mellitus,1,Number,2017,6037106.82636,6978137.54721,5192925.25589
+5,Prevalence,6,China,2,Female,14,45 to 49,587,Diabetes mellitus,1,Number,2017,4267869.00472,4960437.02219,3684564.07584
+5,Prevalence,6,China,1,Male,14,45 to 49,587,Diabetes mellitus,2,Percent,2017,0.0965478066043,0.111285172504,0.0829709355535
+5,Prevalence,6,China,2,Female,14,45 to 49,587,Diabetes mellitus,2,Percent,2017,0.0700012347544,0.0812790961518,0.0604231125201
+5,Prevalence,6,China,1,Male,14,45 to 49,587,Diabetes mellitus,3,Rate,2017,9497.28057005,10977.6639785,8169.25549821
+5,Prevalence,6,China,2,Female,14,45 to 49,587,Diabetes mellitus,3,Rate,2017,6963.985092610001,8094.06507959,6012.192330309999
+5,Prevalence,6,China,1,Male,15,50 to 54,587,Diabetes mellitus,1,Number,2017,6383657.98465,7271175.39422,5600117.34105
+5,Prevalence,6,China,2,Female,15,50 to 54,587,Diabetes mellitus,1,Number,2017,5419883.73031,6262015.97874,4710560.04744
+5,Prevalence,6,China,1,Male,15,50 to 54,587,Diabetes mellitus,2,Percent,2017,0.107602863222,0.122588303016,0.0942815656568
+5,Prevalence,6,China,2,Female,15,50 to 54,587,Diabetes mellitus,2,Percent,2017,0.0914870542012,0.105658137547,0.0795592070828
+5,Prevalence,6,China,1,Male,15,50 to 54,587,Diabetes mellitus,3,Rate,2017,10641.187353700001,12120.627364,9335.07057739
+5,Prevalence,6,China,2,Female,15,50 to 54,587,Diabetes mellitus,3,Rate,2017,9109.74572739,10525.2024113,7917.51380676
+5,Prevalence,6,China,1,Male,16,55 to 59,587,Diabetes mellitus,1,Number,2017,4718782.46965,5352024.70685,4209578.19527
+5,Prevalence,6,China,2,Female,16,55 to 59,587,Diabetes mellitus,1,Number,2017,4445439.26289,5082271.49216,3919571.44635
+5,Prevalence,6,China,1,Male,16,55 to 59,587,Diabetes mellitus,2,Percent,2017,0.116835203703,0.132452047244,0.104152872786
+5,Prevalence,6,China,2,Female,16,55 to 59,587,Diabetes mellitus,2,Percent,2017,0.111928870153,0.127920624745,0.0986850454534
+5,Prevalence,6,China,1,Male,16,55 to 59,587,Diabetes mellitus,3,Rate,2017,11593.792943800001,13149.634822199998,10342.7056218
+5,Prevalence,6,China,2,Female,16,55 to 59,587,Diabetes mellitus,3,Rate,2017,11155.236744,12753.282260599999,9835.64161679
+5,Prevalence,6,China,1,Male,17,60 to 64,587,Diabetes mellitus,1,Number,2017,5027908.07164,5664027.80766,4497451.35609
+5,Prevalence,6,China,2,Female,17,60 to 64,587,Diabetes mellitus,1,Number,2017,5273134.69396,5959150.63029,4676800.27562
+5,Prevalence,6,China,1,Male,17,60 to 64,587,Diabetes mellitus,2,Percent,2017,0.121657052097,0.137172512078,0.108868761426
+5,Prevalence,6,China,2,Female,17,60 to 64,587,Diabetes mellitus,2,Percent,2017,0.128093143642,0.14473130593,0.113635312645
+5,Prevalence,6,China,1,Male,17,60 to 64,587,Diabetes mellitus,3,Rate,2017,12106.5560326,13638.25055,10829.2844798
+5,Prevalence,6,China,2,Female,17,60 to 64,587,Diabetes mellitus,3,Rate,2017,12781.737676300001,14444.595966199999,11336.2615895
+5,Prevalence,6,China,1,Male,18,65 to 69,587,Diabetes mellitus,1,Number,2017,3751845.64034,4214326.22694,3348684.64116
+5,Prevalence,6,China,2,Female,18,65 to 69,587,Diabetes mellitus,1,Number,2017,4300848.45246,4856031.37576,3810474.2113
+5,Prevalence,6,China,1,Male,18,65 to 69,587,Diabetes mellitus,2,Percent,2017,0.124783079199,0.140160257862,0.111356855706
+5,Prevalence,6,China,2,Female,18,65 to 69,587,Diabetes mellitus,2,Percent,2017,0.138581080899,0.156475459899,0.12280595218
+5,Prevalence,6,China,1,Male,18,65 to 69,587,Diabetes mellitus,3,Rate,2017,12447.3656134,13981.721102,11109.8126225
+5,Prevalence,6,China,2,Female,18,65 to 69,587,Diabetes mellitus,3,Rate,2017,13843.4156478,15630.4183876,12265.0167532
+5,Prevalence,6,China,1,Male,19,70 to 74,587,Diabetes mellitus,1,Number,2017,2515719.62183,2829488.26454,2240420.24825
+5,Prevalence,6,China,2,Female,19,70 to 74,587,Diabetes mellitus,1,Number,2017,2974854.31593,3361177.74896,2649616.97419
+5,Prevalence,6,China,1,Male,19,70 to 74,587,Diabetes mellitus,2,Percent,2017,0.126287075639,0.142027078851,0.112534956488
+5,Prevalence,6,China,2,Female,19,70 to 74,587,Diabetes mellitus,2,Percent,2017,0.143020737499,0.161585391656,0.127376691078
+5,Prevalence,6,China,1,Male,19,70 to 74,587,Diabetes mellitus,3,Rate,2017,12613.6742724,14186.8922978,11233.3389617
+5,Prevalence,6,China,2,Female,19,70 to 74,587,Diabetes mellitus,3,Rate,2017,14294.4669112,16150.7889169,12731.669568500001
+5,Prevalence,6,China,1,Male,20,75 to 79,587,Diabetes mellitus,1,Number,2017,1722242.98449,1941182.25027,1536546.25995
+5,Prevalence,6,China,2,Female,20,75 to 79,587,Diabetes mellitus,1,Number,2017,2107806.42389,2377614.75106,1873017.96516
+5,Prevalence,6,China,1,Male,20,75 to 79,587,Diabetes mellitus,2,Percent,2017,0.126630419764,0.142729838894,0.112968394793
+5,Prevalence,6,China,2,Female,20,75 to 79,587,Diabetes mellitus,2,Percent,2017,0.144090331991,0.1625447218,0.128037424236
+5,Prevalence,6,China,1,Male,20,75 to 79,587,Diabetes mellitus,3,Rate,2017,12654.726942299998,14263.452685600001,11290.2613214
+5,Prevalence,6,China,2,Female,20,75 to 79,587,Diabetes mellitus,3,Rate,2017,14403.8913813,16247.6516974,12799.4425957
+5,Prevalence,6,China,1,Male,21,80 plus,587,Diabetes mellitus,1,Number,2017,1537545.93175,1734221.58567,1370422.78333
+5,Prevalence,6,China,2,Female,21,80 plus,587,Diabetes mellitus,1,Number,2017,2361513.96047,2675185.23459,2103886.06993
+5,Prevalence,6,China,1,Male,21,80 plus,587,Diabetes mellitus,2,Percent,2017,0.123021424314,0.138754122444,0.109657558738
+5,Prevalence,6,China,2,Female,21,80 plus,587,Diabetes mellitus,2,Percent,2017,0.13898793201,0.157450061916,0.123822580264
+5,Prevalence,6,China,1,Male,21,80 plus,587,Diabetes mellitus,3,Rate,2017,12298.3486603,13871.495657,10961.5829052
+5,Prevalence,6,China,2,Female,21,80 plus,587,Diabetes mellitus,3,Rate,2017,13896.262807699999,15742.052641400001,12380.2586961
+5,Prevalence,6,China,1,Male,5,1 to 4,491,Cardiovascular diseases,1,Number,2017,32535.3587091,42675.4581075,24327.2468885
+5,Prevalence,6,China,2,Female,5,1 to 4,491,Cardiovascular diseases,1,Number,2017,22061.3508244,31691.3707492,17304.5492667
+5,Prevalence,6,China,1,Male,5,1 to 4,491,Cardiovascular diseases,2,Percent,2017,0.00116004455444,0.00152409358782,0.000873972510483
+5,Prevalence,6,China,2,Female,5,1 to 4,491,Cardiovascular diseases,2,Percent,2017,0.000897639089195,0.00130431480378,0.000698295286873
+5,Prevalence,6,China,1,Male,5,1 to 4,491,Cardiovascular diseases,3,Rate,2017,97.2249032554,127.52640359600001,72.696731158
+5,Prevalence,6,China,2,Female,5,1 to 4,491,Cardiovascular diseases,3,Rate,2017,77.29979459970001,111.041996883,60.632647320699995
+5,Prevalence,6,China,1,Male,6,5 to 9,491,Cardiovascular diseases,1,Number,2017,145179.979021,173849.853224,121200.173109
+5,Prevalence,6,China,2,Female,6,5 to 9,491,Cardiovascular diseases,1,Number,2017,106781.196702,116980.194761,96725.0918637
+5,Prevalence,6,China,1,Male,6,5 to 9,491,Cardiovascular diseases,2,Percent,2017,0.00419213738692,0.00503230058044,0.00348947385524
+5,Prevalence,6,China,2,Female,6,5 to 9,491,Cardiovascular diseases,2,Percent,2017,0.00359972294079,0.00394838008142,0.00325261912402
+5,Prevalence,6,China,1,Male,6,5 to 9,491,Cardiovascular diseases,3,Rate,2017,370.359838997,443.497816186,309.186410562
+5,Prevalence,6,China,2,Female,6,5 to 9,491,Cardiovascular diseases,3,Rate,2017,324.412146828,355.397741278,293.860676532
+5,Prevalence,6,China,1,Male,7,10 to 14,491,Cardiovascular diseases,1,Number,2017,225557.416925,258201.837833,199475.79545
+5,Prevalence,6,China,2,Female,7,10 to 14,491,Cardiovascular diseases,1,Number,2017,258339.285424,294381.474271,231675.696606
+5,Prevalence,6,China,1,Male,7,10 to 14,491,Cardiovascular diseases,2,Percent,2017,0.00659265872168,0.00755643754855,0.00581499917973
+5,Prevalence,6,China,2,Female,7,10 to 14,491,Cardiovascular diseases,2,Percent,2017,0.00858103191704,0.00973700449215,0.00768690949876
+5,Prevalence,6,China,1,Male,7,10 to 14,491,Cardiovascular diseases,3,Rate,2017,566.6744484449999,648.687975045,501.148833436
+5,Prevalence,6,China,2,Female,7,10 to 14,491,Cardiovascular diseases,3,Rate,2017,767.580250337,874.6691597639999,688.357130455
+5,Prevalence,6,China,1,Male,8,15 to 19,491,Cardiovascular diseases,1,Number,2017,319403.297562,350166.342489,290757.759217
+5,Prevalence,6,China,2,Female,8,15 to 19,491,Cardiovascular diseases,1,Number,2017,398537.934812,444894.763785,361338.907278
+5,Prevalence,6,China,1,Male,8,15 to 19,491,Cardiovascular diseases,2,Percent,2017,0.0085321338087,0.00935535839949,0.00777674285463
+5,Prevalence,6,China,2,Female,8,15 to 19,491,Cardiovascular diseases,2,Percent,2017,0.0116452387322,0.0129858760461,0.0105496367692
+5,Prevalence,6,China,1,Male,8,15 to 19,491,Cardiovascular diseases,3,Rate,2017,780.60228707,855.785303058,710.5943287389999
+5,Prevalence,6,China,2,Female,8,15 to 19,491,Cardiovascular diseases,3,Rate,2017,1105.91971813,1234.5572373,1002.69456827
+5,Prevalence,6,China,1,Male,9,20 to 24,491,Cardiovascular diseases,1,Number,2017,428845.957263,466447.902306,396009.25826
+5,Prevalence,6,China,2,Female,9,20 to 24,491,Cardiovascular diseases,1,Number,2017,515264.285543,555088.072116,477856.866345
+5,Prevalence,6,China,1,Male,9,20 to 24,491,Cardiovascular diseases,2,Percent,2017,0.00961700733973,0.0104769745119,0.00886696341837
+5,Prevalence,6,China,2,Female,9,20 to 24,491,Cardiovascular diseases,2,Percent,2017,0.0119984642938,0.0128930525582,0.0111296694073
+5,Prevalence,6,China,1,Male,9,20 to 24,491,Cardiovascular diseases,3,Rate,2017,904.366702627,983.663117751,835.1194200089999
+5,Prevalence,6,China,2,Female,9,20 to 24,491,Cardiovascular diseases,3,Rate,2017,1165.39088157,1255.46170356,1080.78524042
+5,Prevalence,6,China,1,Male,10,25 to 29,491,Cardiovascular diseases,1,Number,2017,728830.83781,789051.887389,676155.122217
+5,Prevalence,6,China,2,Female,10,25 to 29,491,Cardiovascular diseases,1,Number,2017,873410.926238,929450.051028,818430.9758
+5,Prevalence,6,China,1,Male,10,25 to 29,491,Cardiovascular diseases,2,Percent,2017,0.0122962096043,0.0133201648301,0.0113938375365
+5,Prevalence,6,China,2,Female,10,25 to 29,491,Cardiovascular diseases,2,Percent,2017,0.0146270438347,0.0156010880669,0.0136847708348
+5,Prevalence,6,China,1,Male,10,25 to 29,491,Cardiovascular diseases,3,Rate,2017,1175.04337295,1272.13359135,1090.11797283
+5,Prevalence,6,China,2,Female,10,25 to 29,491,Cardiovascular diseases,3,Rate,2017,1432.52048767,1524.43277313,1342.34540164
+5,Prevalence,6,China,1,Male,11,30 to 34,491,Cardiovascular diseases,1,Number,2017,906837.905771,962250.546882,849737.50106
+5,Prevalence,6,China,2,Female,11,30 to 34,491,Cardiovascular diseases,1,Number,2017,1052785.27952,1111771.73095,991159.640905
+5,Prevalence,6,China,1,Male,11,30 to 34,491,Cardiovascular diseases,2,Percent,2017,0.015540565272,0.0165259416837,0.0145423766113
+5,Prevalence,6,China,2,Female,11,30 to 34,491,Cardiovascular diseases,2,Percent,2017,0.0181540314967,0.0191952796721,0.0170946715976
+5,Prevalence,6,China,1,Male,11,30 to 34,491,Cardiovascular diseases,3,Rate,2017,1499.62882956,1591.2641632900002,1405.20245795
+5,Prevalence,6,China,2,Female,11,30 to 34,491,Cardiovascular diseases,3,Rate,2017,1788.2132342799998,1888.40494017,1683.53872497
+5,Prevalence,6,China,1,Male,12,35 to 39,491,Cardiovascular diseases,1,Number,2017,1059580.97986,1143905.79573,980596.88166
+5,Prevalence,6,China,2,Female,12,35 to 39,491,Cardiovascular diseases,1,Number,2017,1156032.20499,1236581.24585,1078958.68267
+5,Prevalence,6,China,1,Male,12,35 to 39,491,Cardiovascular diseases,2,Percent,2017,0.0219806820586,0.0237580724301,0.0203572396407
+5,Prevalence,6,China,2,Female,12,35 to 39,491,Cardiovascular diseases,2,Percent,2017,0.0244419321687,0.0261347071396,0.0228180952802
+5,Prevalence,6,China,1,Male,12,35 to 39,491,Cardiovascular diseases,3,Rate,2017,2137.78627901,2307.91809316,1978.42977431
+5,Prevalence,6,China,2,Female,12,35 to 39,491,Cardiovascular diseases,3,Rate,2017,2418.95431632,2587.50018314,2257.68084257
+5,Prevalence,6,China,1,Male,13,40 to 44,491,Cardiovascular diseases,1,Number,2017,2294315.27285,2492514.8137,2112205.66292
+5,Prevalence,6,China,2,Female,13,40 to 44,491,Cardiovascular diseases,1,Number,2017,2604468.38456,2865127.08436,2372783.00921
+5,Prevalence,6,China,1,Male,13,40 to 44,491,Cardiovascular diseases,2,Percent,2017,0.0415192780906,0.0451772686362,0.038215027401
+5,Prevalence,6,China,2,Female,13,40 to 44,491,Cardiovascular diseases,2,Percent,2017,0.0482099660093,0.0530548905378,0.0438882357974
+5,Prevalence,6,China,1,Male,13,40 to 44,491,Cardiovascular diseases,3,Rate,2017,4066.6502514699996,4417.95690152,3743.86283869
+5,Prevalence,6,China,2,Female,13,40 to 44,491,Cardiovascular diseases,3,Rate,2017,4788.098496930001,5267.29783609,4362.16420492
+5,Prevalence,6,China,1,Male,14,45 to 49,491,Cardiovascular diseases,1,Number,2017,3863796.2414,4176866.81651,3603298.60778
+5,Prevalence,6,China,2,Female,14,45 to 49,491,Cardiovascular diseases,1,Number,2017,4221612.80724,4585250.49001,3931379.90196
+5,Prevalence,6,China,1,Male,14,45 to 49,491,Cardiovascular diseases,2,Percent,2017,0.0617921583723,0.0667743002605,0.0577653665505
+5,Prevalence,6,China,2,Female,14,45 to 49,491,Cardiovascular diseases,2,Percent,2017,0.0692429130523,0.0751627775267,0.0644932328446
+5,Prevalence,6,China,1,Male,14,45 to 49,491,Cardiovascular diseases,3,Rate,2017,6078.33487555,6570.84216017,5668.53276579
+5,Prevalence,6,China,2,Female,14,45 to 49,491,Cardiovascular diseases,3,Rate,2017,6888.50773628,7481.86413947,6414.92768414
+5,Prevalence,6,China,1,Male,15,50 to 54,491,Cardiovascular diseases,1,Number,2017,5387495.31846,5839881.7285,4981626.69917
+5,Prevalence,6,China,2,Female,15,50 to 54,491,Cardiovascular diseases,1,Number,2017,5826579.11165,6323957.33191,5360042.59533
+5,Prevalence,6,China,1,Male,15,50 to 54,491,Cardiovascular diseases,2,Percent,2017,0.0908114867322,0.0984748195485,0.0840531139514
+5,Prevalence,6,China,2,Female,15,50 to 54,491,Cardiovascular diseases,2,Percent,2017,0.0983519450836,0.10674148144,0.0904761654815
+5,Prevalence,6,China,1,Male,15,50 to 54,491,Cardiovascular diseases,3,Rate,2017,8980.6420063,9734.74389537,8304.0825745
+5,Prevalence,6,China,2,Female,15,50 to 54,491,Cardiovascular diseases,3,Rate,2017,9793.31971104,10629.3134966,9009.16469082
+5,Prevalence,6,China,1,Male,16,55 to 59,491,Cardiovascular diseases,1,Number,2017,5227009.66508,5635122.43863,4884607.44104
+5,Prevalence,6,China,2,Female,16,55 to 59,491,Cardiovascular diseases,1,Number,2017,5474606.88687,5900212.71842,5100928.55313
+5,Prevalence,6,China,1,Male,16,55 to 59,491,Cardiovascular diseases,2,Percent,2017,0.129418851576,0.139408437828,0.120994713722
+5,Prevalence,6,China,2,Female,16,55 to 59,491,Cardiovascular diseases,2,Percent,2017,0.13784165939,0.148565600664,0.128419719499
+5,Prevalence,6,China,1,Male,16,55 to 59,491,Cardiovascular diseases,3,Rate,2017,12842.4796358,13845.190615700001,12001.2159169
+5,Prevalence,6,China,2,Female,16,55 to 59,491,Cardiovascular diseases,3,Rate,2017,13737.795590400001,14805.796642700001,12800.099666
+5,Prevalence,6,China,1,Male,17,60 to 64,491,Cardiovascular diseases,1,Number,2017,7296346.49426,7825191.08307,6822412.51444
+5,Prevalence,6,China,2,Female,17,60 to 64,491,Cardiovascular diseases,1,Number,2017,7684201.89634,8239248.69796,7165460.7393
+5,Prevalence,6,China,1,Male,17,60 to 64,491,Cardiovascular diseases,2,Percent,2017,0.176545542997,0.189287965137,0.165033445794
+5,Prevalence,6,China,2,Female,17,60 to 64,491,Cardiovascular diseases,2,Percent,2017,0.18666217824,0.200203877309,0.174139501646
+5,Prevalence,6,China,1,Male,17,60 to 64,491,Cardiovascular diseases,3,Rate,2017,17568.664026299997,18842.053785199998,16427.4919523
+5,Prevalence,6,China,2,Female,17,60 to 64,491,Cardiovascular diseases,3,Rate,2017,18626.008738800003,19971.4063112,17368.6137022
+5,Prevalence,6,China,1,Male,18,65 to 69,491,Cardiovascular diseases,1,Number,2017,6936962.83684,7397256.52302,6497893.48831
+5,Prevalence,6,China,2,Female,18,65 to 69,491,Cardiovascular diseases,1,Number,2017,7542712.53727,8043584.45052,7070271.08977
+5,Prevalence,6,China,1,Male,18,65 to 69,491,Cardiovascular diseases,2,Percent,2017,0.230717640156,0.246057065617,0.216219250958
+5,Prevalence,6,China,2,Female,18,65 to 69,491,Cardiovascular diseases,2,Percent,2017,0.24303994281,0.259278385348,0.227800174344
+5,Prevalence,6,China,1,Male,18,65 to 69,491,Cardiovascular diseases,3,Rate,2017,23014.5163086,24541.616394999997,21557.831456699998
+5,Prevalence,6,China,2,Female,18,65 to 69,491,Cardiovascular diseases,3,Rate,2017,24278.2106646,25890.399086999998,22757.533198499998
+5,Prevalence,6,China,1,Male,19,70 to 74,491,Cardiovascular diseases,1,Number,2017,5768182.2745,6162344.58481,5387520.1719
+5,Prevalence,6,China,2,Female,19,70 to 74,491,Cardiovascular diseases,1,Number,2017,6256220.62038,6674503.5672,5841096.12344
+5,Prevalence,6,China,1,Male,19,70 to 74,491,Cardiovascular diseases,2,Percent,2017,0.289558027042,0.309302211976,0.270393467972
+5,Prevalence,6,China,2,Female,19,70 to 74,491,Cardiovascular diseases,2,Percent,2017,0.300777571955,0.320884935931,0.280803771155
+5,Prevalence,6,China,1,Male,19,70 to 74,491,Cardiovascular diseases,3,Rate,2017,28921.335956,30897.6432319,27012.717949300004
+5,Prevalence,6,China,2,Female,19,70 to 74,491,Cardiovascular diseases,3,Rate,2017,30061.7540053,32071.644610900003,28067.040061199998
+5,Prevalence,6,China,1,Male,20,75 to 79,491,Cardiovascular diseases,1,Number,2017,4724884.10454,5017278.13774,4428887.44861
+5,Prevalence,6,China,2,Female,20,75 to 79,491,Cardiovascular diseases,1,Number,2017,5234086.25891,5553206.22867,4923515.92496
+5,Prevalence,6,China,1,Male,20,75 to 79,491,Cardiovascular diseases,2,Percent,2017,0.3474039011,0.36890053607,0.32566391105
+5,Prevalence,6,China,2,Female,20,75 to 79,491,Cardiovascular diseases,2,Percent,2017,0.357803806051,0.379628189468,0.33657847104
+5,Prevalence,6,China,1,Male,20,75 to 79,491,Cardiovascular diseases,3,Rate,2017,34717.5855644,36866.0435248,32542.6561902
+5,Prevalence,6,China,2,Female,20,75 to 79,491,Cardiovascular diseases,3,Rate,2017,35767.6156118,37948.351627100004,33645.3043284
+5,Prevalence,6,China,1,Male,21,80 plus,491,Cardiovascular diseases,1,Number,2017,5010738.74615,5314063.83839,4724314.25569
+5,Prevalence,6,China,2,Female,21,80 plus,491,Cardiovascular diseases,1,Number,2017,7086143.50374,7510265.11184,6671882.00861
+5,Prevalence,6,China,1,Male,21,80 plus,491,Cardiovascular diseases,2,Percent,2017,0.400916897185,0.425203317687,0.377976223725
+5,Prevalence,6,China,2,Female,21,80 plus,491,Cardiovascular diseases,2,Percent,2017,0.417058043627,0.442024232643,0.39266695641
+5,Prevalence,6,China,1,Male,21,80 plus,491,Cardiovascular diseases,3,Rate,2017,40079.3308826,42505.5333555,37788.3110336
+5,Prevalence,6,China,2,Female,21,80 plus,491,Cardiovascular diseases,3,Rate,2017,41698.2131247,44193.9448575,39260.5029507
+6,Incidence,6,China,1,Male,5,1 to 4,491,Cardiovascular diseases,1,Number,2017,40362.5783457,45009.3899383,36179.014744
+6,Incidence,6,China,2,Female,5,1 to 4,491,Cardiovascular diseases,1,Number,2017,37106.314483,40926.3340067,33400.8197776
+6,Incidence,6,China,1,Male,5,1 to 4,491,Cardiovascular diseases,2,Percent,2017,0.000206565150673,0.000248855874962,0.000168301780594
+6,Incidence,6,China,2,Female,5,1 to 4,491,Cardiovascular diseases,2,Percent,2017,0.000222797411172,0.000266471203369,0.000182065845736
+6,Incidence,6,China,1,Male,5,1 to 4,491,Cardiovascular diseases,3,Rate,2017,120.61486119999999,134.50085556,108.113183562
+6,Incidence,6,China,2,Female,5,1 to 4,491,Cardiovascular diseases,3,Rate,2017,130.01517952,143.399977527,117.031659975
+6,Incidence,6,China,1,Male,6,5 to 9,491,Cardiovascular diseases,1,Number,2017,38434.0221371,42805.9702181,34205.7122963
+6,Incidence,6,China,2,Female,6,5 to 9,491,Cardiovascular diseases,1,Number,2017,36764.1274389,40523.9364385,33021.0774632
+6,Incidence,6,China,1,Male,6,5 to 9,491,Cardiovascular diseases,2,Percent,2017,0.000202555318706,0.000249491870562,0.000164237379419
+6,Incidence,6,China,2,Female,6,5 to 9,491,Cardiovascular diseases,2,Percent,2017,0.000229615892491,0.000280881060342,0.000187543170777
+6,Incidence,6,China,1,Male,6,5 to 9,491,Cardiovascular diseases,3,Rate,2017,98.04670276649999,109.199714348,87.2601179879
+6,Incidence,6,China,2,Female,6,5 to 9,491,Cardiovascular diseases,3,Rate,2017,111.693162065,123.115844587,100.32139516400001
+6,Incidence,6,China,1,Male,7,10 to 14,491,Cardiovascular diseases,1,Number,2017,30915.515995,35216.5572834,26960.9821831
+6,Incidence,6,China,2,Female,7,10 to 14,491,Cardiovascular diseases,1,Number,2017,28032.3011609,31767.6262575,24742.211085
+6,Incidence,6,China,1,Male,7,10 to 14,491,Cardiovascular diseases,2,Percent,2017,0.00020677339107,0.000264801640836,0.000159116107913
+6,Incidence,6,China,2,Female,7,10 to 14,491,Cardiovascular diseases,2,Percent,2017,0.000219078990139,0.000277543973866,0.000171055952949
+6,Incidence,6,China,1,Male,7,10 to 14,491,Cardiovascular diseases,3,Rate,2017,77.6699485819,88.4755795075,67.7348584516
+6,Incidence,6,China,2,Female,7,10 to 14,491,Cardiovascular diseases,3,Rate,2017,83.28985158910001,94.38828661049999,73.5143032829
+6,Incidence,6,China,1,Male,8,15 to 19,491,Cardiovascular diseases,1,Number,2017,32459.0624462,37416.6895823,28379.9697203
+6,Incidence,6,China,2,Female,8,15 to 19,491,Cardiovascular diseases,1,Number,2017,25838.9646402,29148.0984661,23053.2111306
+6,Incidence,6,China,1,Male,8,15 to 19,491,Cardiovascular diseases,2,Percent,2017,0.000203445399319,0.000256291102572,0.000157031416095
+6,Incidence,6,China,2,Female,8,15 to 19,491,Cardiovascular diseases,2,Percent,2017,0.000180122435365,0.000224812481889,0.000141166551386
+6,Incidence,6,China,1,Male,8,15 to 19,491,Cardiovascular diseases,3,Rate,2017,79.3279799395,91.4441199744,69.358924719
+6,Incidence,6,China,2,Female,8,15 to 19,491,Cardiovascular diseases,3,Rate,2017,71.7016323807,80.8842873509,63.971327516200006
+6,Incidence,6,China,1,Male,9,20 to 24,491,Cardiovascular diseases,1,Number,2017,40368.1083327,45855.8212785,35223.2471768
+6,Incidence,6,China,2,Female,9,20 to 24,491,Cardiovascular diseases,1,Number,2017,31716.9690077,35719.2765586,27976.132898
+6,Incidence,6,China,1,Male,9,20 to 24,491,Cardiovascular diseases,2,Percent,2017,0.000200428122944,0.000249045712171,0.000158078451793
+6,Incidence,6,China,2,Female,9,20 to 24,491,Cardiovascular diseases,2,Percent,2017,0.000170695753015,0.00021225446243,0.000136049893009
+6,Incidence,6,China,1,Male,9,20 to 24,491,Cardiovascular diseases,3,Rate,2017,85.1298057166,96.7025039728,74.2801263848
+6,Incidence,6,China,2,Female,9,20 to 24,491,Cardiovascular diseases,3,Rate,2017,71.73535505870001,80.7875111192,63.2745779121
+6,Incidence,6,China,1,Male,10,25 to 29,491,Cardiovascular diseases,1,Number,2017,61252.3442714,68531.6750481,54004.7502254
+6,Incidence,6,China,2,Female,10,25 to 29,491,Cardiovascular diseases,1,Number,2017,52591.3699948,58583.0427925,46765.4804568
+6,Incidence,6,China,1,Male,10,25 to 29,491,Cardiovascular diseases,2,Percent,2017,0.000229897776108,0.000284355291463,0.000183517274505
+6,Incidence,6,China,2,Female,10,25 to 29,491,Cardiovascular diseases,2,Percent,2017,0.00020278528764,0.000247724282527,0.000161597933504
+6,Incidence,6,China,1,Male,10,25 to 29,491,Cardiovascular diseases,3,Rate,2017,98.75290325289998,110.48886301900001,87.0681104151
+6,Incidence,6,China,2,Female,10,25 to 29,491,Cardiovascular diseases,3,Rate,2017,86.2574679673,96.08467962719999,76.7021648777
+6,Incidence,6,China,1,Male,11,30 to 34,491,Cardiovascular diseases,1,Number,2017,84239.8102411,92204.6225528,77046.5648809
+6,Incidence,6,China,2,Female,11,30 to 34,491,Cardiovascular diseases,1,Number,2017,70374.667913,76748.0593698,64762.0446681
+6,Incidence,6,China,1,Male,11,30 to 34,491,Cardiovascular diseases,2,Percent,2017,0.000339346350194,0.000422450594351,0.000269618111148
+6,Incidence,6,China,2,Female,11,30 to 34,491,Cardiovascular diseases,2,Percent,2017,0.000287825991768,0.000354326471119,0.000230366663747
+6,Incidence,6,China,1,Male,11,30 to 34,491,Cardiovascular diseases,3,Rate,2017,139.306536736,152.477867675,127.411138395
+6,Incidence,6,China,2,Female,11,30 to 34,491,Cardiovascular diseases,3,Rate,2017,119.535212895,130.360765999,110.001866104
+6,Incidence,6,China,1,Male,12,35 to 39,491,Cardiovascular diseases,1,Number,2017,100874.327069,111276.721044,90714.1597464
+6,Incidence,6,China,2,Female,12,35 to 39,491,Cardiovascular diseases,1,Number,2017,80460.6713092,88528.7718042,72848.4895788
+6,Incidence,6,China,1,Male,12,35 to 39,491,Cardiovascular diseases,2,Percent,2017,0.000508055922653,0.000620516522126,0.00040078324518
+6,Incidence,6,China,2,Female,12,35 to 39,491,Cardiovascular diseases,2,Percent,2017,0.00041027006666,0.000498155849425,0.000324943682908
+6,Incidence,6,China,1,Male,12,35 to 39,491,Cardiovascular diseases,3,Rate,2017,203.52172831699997,224.509359777,183.022807793
+6,Incidence,6,China,2,Female,12,35 to 39,491,Cardiovascular diseases,3,Rate,2017,168.36095683,185.243156506,152.43275018100002
+6,Incidence,6,China,1,Male,13,40 to 44,491,Cardiovascular diseases,1,Number,2017,267556.218538,292123.954319,247419.093896
+6,Incidence,6,China,2,Female,13,40 to 44,491,Cardiovascular diseases,1,Number,2017,236185.406457,260741.368845,216768.189978
+6,Incidence,6,China,1,Male,13,40 to 44,491,Cardiovascular diseases,2,Percent,2017,0.00122787574394,0.0015030968941,0.000985016330421
+6,Incidence,6,China,2,Female,13,40 to 44,491,Cardiovascular diseases,2,Percent,2017,0.00108353043334,0.0013270954561,0.000873229692819
+6,Incidence,6,China,1,Male,13,40 to 44,491,Cardiovascular diseases,3,Rate,2017,474.240648735,517.786708021,438.547802177
+6,Incidence,6,China,2,Female,13,40 to 44,491,Cardiovascular diseases,3,Rate,2017,434.20722492,479.35131931499996,398.51028746300005
+6,Incidence,6,China,1,Male,14,45 to 49,491,Cardiovascular diseases,1,Number,2017,469284.98847,529011.481403,417610.603225
+6,Incidence,6,China,2,Female,14,45 to 49,491,Cardiovascular diseases,1,Number,2017,403662.120661,467266.544619,354534.601464
+6,Incidence,6,China,1,Male,14,45 to 49,491,Cardiovascular diseases,2,Percent,2017,0.00200920904468,0.00250041223938,0.00156057909909
+6,Incidence,6,China,2,Female,14,45 to 49,491,Cardiovascular diseases,2,Percent,2017,0.00172838711937,0.00212936755764,0.00135465967484
+6,Incidence,6,China,1,Male,14,45 to 49,491,Cardiovascular diseases,3,Rate,2017,738.256143382,832.214934764,656.9645331659999
+6,Incidence,6,China,2,Female,14,45 to 49,491,Cardiovascular diseases,3,Rate,2017,658.665246668,762.450123798,578.502685223
+6,Incidence,6,China,1,Male,15,50 to 54,491,Cardiovascular diseases,1,Number,2017,663013.701044,721949.712622,609533.179558
+6,Incidence,6,China,2,Female,15,50 to 54,491,Cardiovascular diseases,1,Number,2017,594225.999017,656633.564827,541453.635728
+6,Incidence,6,China,1,Male,15,50 to 54,491,Cardiovascular diseases,2,Percent,2017,0.00309175641893,0.00374169796952,0.00251574653455
+6,Incidence,6,China,2,Female,15,50 to 54,491,Cardiovascular diseases,2,Percent,2017,0.0027120554682,0.00326976718469,0.00220164184318
+6,Incidence,6,China,1,Male,15,50 to 54,491,Cardiovascular diseases,3,Rate,2017,1105.20535841,1203.44826907,1016.05643309
+6,Incidence,6,China,2,Female,15,50 to 54,491,Cardiovascular diseases,3,Rate,2017,998.775624167,1103.67032012,910.0757857709999
+6,Incidence,6,China,1,Male,16,55 to 59,491,Cardiovascular diseases,1,Number,2017,644663.734904,725261.980022,577031.704811
+6,Incidence,6,China,2,Female,16,55 to 59,491,Cardiovascular diseases,1,Number,2017,585732.246448,665472.898381,517784.566208
+6,Incidence,6,China,1,Male,16,55 to 59,491,Cardiovascular diseases,2,Percent,2017,0.00458013857253,0.00563910078168,0.00367218234839
+6,Incidence,6,China,2,Female,16,55 to 59,491,Cardiovascular diseases,2,Percent,2017,0.00409638970305,0.00498506876052,0.00330132086215
+6,Incidence,6,China,1,Male,16,55 to 59,491,Cardiovascular diseases,3,Rate,2017,1583.90387964,1781.9294024399999,1417.73564487
+6,Incidence,6,China,2,Female,16,55 to 59,491,Cardiovascular diseases,3,Rate,2017,1469.81692726,1669.91545472,1299.31128891
+6,Incidence,6,China,1,Male,17,60 to 64,491,Cardiovascular diseases,1,Number,2017,948358.618442,1031227.79713,877391.245628
+6,Incidence,6,China,2,Female,17,60 to 64,491,Cardiovascular diseases,1,Number,2017,876446.295302,962542.952999,804348.102159
+6,Incidence,6,China,1,Male,17,60 to 64,491,Cardiovascular diseases,2,Percent,2017,0.00669006912521,0.00825040988509,0.00547335117793
+6,Incidence,6,China,2,Female,17,60 to 64,491,Cardiovascular diseases,2,Percent,2017,0.00593300523313,0.00722615275554,0.00489933730148
+6,Incidence,6,China,1,Male,17,60 to 64,491,Cardiovascular diseases,3,Rate,2017,2283.5255914699997,2483.0639165400003,2112.64528435
+6,Incidence,6,China,2,Female,17,60 to 64,491,Cardiovascular diseases,3,Rate,2017,2124.4491719,2333.14190541,1949.68781169
+6,Incidence,6,China,1,Male,18,65 to 69,491,Cardiovascular diseases,1,Number,2017,970638.879143,1073111.89692,880051.008223
+6,Incidence,6,China,2,Female,18,65 to 69,491,Cardiovascular diseases,1,Number,2017,921445.044162,1028646.36722,825191.969217
+6,Incidence,6,China,1,Male,18,65 to 69,491,Cardiovascular diseases,2,Percent,2017,0.00870607388437,0.0103376442686,0.0071043115823
+6,Incidence,6,China,2,Female,18,65 to 69,491,Cardiovascular diseases,2,Percent,2017,0.00761430190045,0.00901204885619,0.00628258175807
+6,Incidence,6,China,1,Male,18,65 to 69,491,Cardiovascular diseases,3,Rate,2017,3220.2542869599997,3560.22539453,2919.71411085
+6,Incidence,6,China,2,Female,18,65 to 69,491,Cardiovascular diseases,3,Rate,2017,2965.9140246300003,3310.9697710699998,2656.09810376
+6,Incidence,6,China,1,Male,19,70 to 74,491,Cardiovascular diseases,1,Number,2017,850932.366599,920387.574752,782436.59377
+6,Incidence,6,China,2,Female,19,70 to 74,491,Cardiovascular diseases,1,Number,2017,810760.231834,883930.702858,742651.439521
+6,Incidence,6,China,1,Male,19,70 to 74,491,Cardiovascular diseases,2,Percent,2017,0.0106350510312,0.012354980816,0.00889635080025
+6,Incidence,6,China,2,Female,19,70 to 74,491,Cardiovascular diseases,2,Percent,2017,0.00926077298307,0.0107528707514,0.00782061708418
+6,Incidence,6,China,1,Male,19,70 to 74,491,Cardiovascular diseases,3,Rate,2017,4266.52620862,4614.77064912,3923.09232195
+6,Incidence,6,China,2,Female,19,70 to 74,491,Cardiovascular diseases,3,Rate,2017,3895.78247404,4247.37376755,3568.51304345
+6,Incidence,6,China,1,Male,20,75 to 79,491,Cardiovascular diseases,1,Number,2017,742712.61191,812282.392301,676538.440394
+6,Incidence,6,China,2,Female,20,75 to 79,491,Cardiovascular diseases,1,Number,2017,717324.535816,784267.325245,652703.627697
+6,Incidence,6,China,1,Male,20,75 to 79,491,Cardiovascular diseases,2,Percent,2017,0.0128222730727,0.0148441290337,0.0107583410824
+6,Incidence,6,China,2,Female,20,75 to 79,491,Cardiovascular diseases,2,Percent,2017,0.0110359830549,0.0128052680272,0.00924646078538
+6,Incidence,6,China,1,Male,20,75 to 79,491,Cardiovascular diseases,3,Rate,2017,5457.31664169,5968.5026835,4971.0809138
+6,Incidence,6,China,2,Female,20,75 to 79,491,Cardiovascular diseases,3,Rate,2017,4901.90398034,5359.36376259,4460.31099013
+6,Incidence,6,China,1,Male,21,80 plus,491,Cardiovascular diseases,1,Number,2017,927389.463,990219.66843,870469.034694
+6,Incidence,6,China,2,Female,21,80 plus,491,Cardiovascular diseases,1,Number,2017,1104568.69354,1180898.24186,1040561.6022
+6,Incidence,6,China,1,Male,21,80 plus,491,Cardiovascular diseases,2,Percent,2017,0.0139661080787,0.0156575040878,0.0123178515607
+6,Incidence,6,China,2,Female,21,80 plus,491,Cardiovascular diseases,2,Percent,2017,0.0126969139206,0.0141831094188,0.0112539927163
+6,Incidence,6,China,1,Male,21,80 plus,491,Cardiovascular diseases,3,Rate,2017,7417.89804412,7920.45719167,6962.609354040001
+6,Incidence,6,China,2,Female,21,80 plus,491,Cardiovascular diseases,3,Rate,2017,6499.803563089999,6948.962653930001,6123.15562548
+6,Incidence,6,China,1,Male,5,1 to 4,508,Chronic respiratory diseases,1,Number,2017,1080529.62802,1538722.4058,725168.608047
+6,Incidence,6,China,2,Female,5,1 to 4,508,Chronic respiratory diseases,1,Number,2017,798077.026637,1138315.48254,519868.032049
+6,Incidence,6,China,1,Male,5,1 to 4,508,Chronic respiratory diseases,2,Percent,2017,0.00552671877769,0.00789251189874,0.00354874532059
+6,Incidence,6,China,2,Female,5,1 to 4,508,Chronic respiratory diseases,2,Percent,2017,0.00478949042746,0.00693251407,0.00302464616464
+6,Incidence,6,China,1,Male,5,1 to 4,508,Chronic respiratory diseases,3,Rate,2017,3228.9297772500004,4598.14008442,2167.01000261
+6,Incidence,6,China,2,Female,5,1 to 4,508,Chronic respiratory diseases,3,Rate,2017,2796.3469111500003,3988.4934377,1821.5426796
+6,Incidence,6,China,1,Male,6,5 to 9,508,Chronic respiratory diseases,1,Number,2017,329157.651148,534585.559702,195335.338706
+6,Incidence,6,China,2,Female,6,5 to 9,508,Chronic respiratory diseases,1,Number,2017,218229.062696,359068.308155,127041.707008
+6,Incidence,6,China,1,Male,6,5 to 9,508,Chronic respiratory diseases,2,Percent,2017,0.00173499379667,0.00289397717441,0.000986158595608
+6,Incidence,6,China,2,Female,6,5 to 9,508,Chronic respiratory diseases,2,Percent,2017,0.00136317758966,0.00232631066981,0.00077055309581
+6,Incidence,6,China,1,Male,6,5 to 9,508,Chronic respiratory diseases,3,Rate,2017,839.6941197120001,1363.74879757,498.308135057
+6,Incidence,6,China,2,Female,6,5 to 9,508,Chronic respiratory diseases,3,Rate,2017,663.002110074,1090.88607643,385.965639833
+6,Incidence,6,China,1,Male,7,10 to 14,508,Chronic respiratory diseases,1,Number,2017,199598.983798,290946.994299,128737.196716
+6,Incidence,6,China,2,Female,7,10 to 14,508,Chronic respiratory diseases,1,Number,2017,162059.834237,232934.139425,105355.925782
+6,Incidence,6,China,1,Male,7,10 to 14,508,Chronic respiratory diseases,2,Percent,2017,0.00133693946597,0.00212055126416,0.00079278539886
+6,Incidence,6,China,2,Female,7,10 to 14,508,Chronic respiratory diseases,2,Percent,2017,0.00126834691003,0.00198687236038,0.000763826236872
+6,Incidence,6,China,1,Male,7,10 to 14,508,Chronic respiratory diseases,3,Rate,2017,501.4583231,730.954582512,323.430197676
+6,Incidence,6,China,2,Female,7,10 to 14,508,Chronic respiratory diseases,3,Rate,2017,481.51378884999997,692.096228256,313.03457294000003
+6,Incidence,6,China,1,Male,8,15 to 19,508,Chronic respiratory diseases,1,Number,2017,154247.946304,204243.042692,111742.88951
+6,Incidence,6,China,2,Female,8,15 to 19,508,Chronic respiratory diseases,1,Number,2017,154420.716327,196415.683714,114758.312618
+6,Incidence,6,China,1,Male,8,15 to 19,508,Chronic respiratory diseases,2,Percent,2017,0.000966955622168,0.00137900383379,0.000668554140285
+6,Incidence,6,China,2,Female,8,15 to 19,508,Chronic respiratory diseases,2,Percent,2017,0.00107682481988,0.00146849047524,0.000758646772149
+6,Incidence,6,China,1,Male,8,15 to 19,508,Chronic respiratory diseases,3,Rate,2017,376.972625455,499.157608768,273.09284462899996
+6,Incidence,6,China,2,Female,8,15 to 19,508,Chronic respiratory diseases,3,Rate,2017,428.508556291,545.04216185,318.447680026
+6,Incidence,6,China,1,Male,9,20 to 24,508,Chronic respiratory diseases,1,Number,2017,131503.036306,178689.252626,86295.2814898
+6,Incidence,6,China,2,Female,9,20 to 24,508,Chronic respiratory diseases,1,Number,2017,152920.745356,197504.858645,109383.774026
+6,Incidence,6,China,1,Male,9,20 to 24,508,Chronic respiratory diseases,2,Percent,2017,0.000652722429327,0.000936524882233,0.000420262795808
+6,Incidence,6,China,2,Female,9,20 to 24,508,Chronic respiratory diseases,2,Percent,2017,0.000822733238619,0.00113364350605,0.000568466835765
+6,Incidence,6,China,1,Male,9,20 to 24,508,Chronic respiratory diseases,3,Rate,2017,277.318615964,376.826707714,181.982779251
+6,Incidence,6,China,2,Female,9,20 to 24,508,Chronic respiratory diseases,3,Rate,2017,345.866087056,446.70350301400003,247.397027928
+6,Incidence,6,China,1,Male,10,25 to 29,508,Chronic respiratory diseases,1,Number,2017,141086.358623,180527.644598,107020.951381
+6,Incidence,6,China,2,Female,10,25 to 29,508,Chronic respiratory diseases,1,Number,2017,174564.509209,221581.09209,131566.120573
+6,Incidence,6,China,1,Male,10,25 to 29,508,Chronic respiratory diseases,2,Percent,2017,0.000529392311964,0.000701650866644,0.000373946788807
+6,Incidence,6,China,2,Female,10,25 to 29,508,Chronic respiratory diseases,2,Percent,2017,0.000672919030353,0.000900548775292,0.000468797182999
+6,Incidence,6,China,1,Male,10,25 to 29,508,Chronic respiratory diseases,3,Rate,2017,227.463743456,291.052191284,172.542451779
+6,Incidence,6,China,2,Female,10,25 to 29,508,Chronic respiratory diseases,3,Rate,2017,286.311091778,363.425101019,215.787503388
+6,Incidence,6,China,1,Male,11,30 to 34,508,Chronic respiratory diseases,1,Number,2017,129611.380734,169245.536759,99629.5009906
+6,Incidence,6,China,2,Female,11,30 to 34,508,Chronic respiratory diseases,1,Number,2017,148258.239524,196192.202692,110653.384037
+6,Incidence,6,China,1,Male,11,30 to 34,508,Chronic respiratory diseases,2,Percent,2017,0.00052212117821,0.00070945598882,0.00037052050296
+6,Incidence,6,China,2,Female,11,30 to 34,508,Chronic respiratory diseases,2,Percent,2017,0.00060648176095,0.000833753834906,0.000424055085695
+6,Incidence,6,China,1,Male,11,30 to 34,508,Chronic respiratory diseases,3,Rate,2017,214.337051805,279.879661606,164.75631533400002
+6,Incidence,6,China,2,Female,11,30 to 34,508,Chronic respiratory diseases,3,Rate,2017,251.82470838499998,333.24315996900003,187.950809726
+6,Incidence,6,China,1,Male,12,35 to 39,508,Chronic respiratory diseases,1,Number,2017,126265.33506,163700.19928,94838.9230663
+6,Incidence,6,China,2,Female,12,35 to 39,508,Chronic respiratory diseases,1,Number,2017,124329.351759,163198.242926,90982.6969043
+6,Incidence,6,China,1,Male,12,35 to 39,508,Chronic respiratory diseases,2,Percent,2017,0.000635783804495,0.000868525951698,0.000448260243479
+6,Incidence,6,China,2,Female,12,35 to 39,508,Chronic respiratory diseases,2,Percent,2017,0.00063391020854,0.000884617739993,0.000443320819157
+6,Incidence,6,China,1,Male,12,35 to 39,508,Chronic respiratory diseases,3,Rate,2017,254.75004358799998,330.277766913,191.344835648
+6,Incidence,6,China,2,Female,12,35 to 39,508,Chronic respiratory diseases,3,Rate,2017,260.154536167,341.48624271799997,190.377903347
+6,Incidence,6,China,1,Male,13,40 to 44,508,Chronic respiratory diseases,1,Number,2017,180046.3079,224749.741589,137893.009434
+6,Incidence,6,China,2,Female,13,40 to 44,508,Chronic respiratory diseases,1,Number,2017,158942.668252,204244.068648,117570.029128
+6,Incidence,6,China,1,Male,13,40 to 44,508,Chronic respiratory diseases,2,Percent,2017,0.00082632579706,0.00109713350982,0.000594813494826
+6,Incidence,6,China,2,Female,13,40 to 44,508,Chronic respiratory diseases,2,Percent,2017,0.000729091510063,0.00100020700261,0.000518123999047
+6,Incidence,6,China,1,Male,13,40 to 44,508,Chronic respiratory diseases,3,Rate,2017,319.130231125,398.36660809600005,244.41394263700002
+6,Incidence,6,China,2,Female,13,40 to 44,508,Chronic respiratory diseases,3,Rate,2017,292.202875438,375.485732096,216.14271960000002
+6,Incidence,6,China,1,Male,14,45 to 49,508,Chronic respiratory diseases,1,Number,2017,265216.329405,346922.455432,201291.261618
+6,Incidence,6,China,2,Female,14,45 to 49,508,Chronic respiratory diseases,1,Number,2017,212816.916179,281305.964438,157858.719246
+6,Incidence,6,China,1,Male,14,45 to 49,508,Chronic respiratory diseases,2,Percent,2017,0.00113513384755,0.0015345735314,0.000785968597714
+6,Incidence,6,China,2,Female,14,45 to 49,508,Chronic respiratory diseases,2,Percent,2017,0.000910942263163,0.00126476081654,0.000623615553772
+6,Incidence,6,China,1,Male,14,45 to 49,508,Chronic respiratory diseases,3,Rate,2017,417.22533070199995,545.761403609,316.661547139
+6,Incidence,6,China,2,Female,14,45 to 49,508,Chronic respiratory diseases,3,Rate,2017,347.258510065,459.013746824,257.58189071699996
+6,Incidence,6,China,1,Male,15,50 to 54,508,Chronic respiratory diseases,1,Number,2017,340305.196701,421972.422244,257735.735921
+6,Incidence,6,China,2,Female,15,50 to 54,508,Chronic respiratory diseases,1,Number,2017,270106.371701,348194.982567,197990.981597
+6,Incidence,6,China,1,Male,15,50 to 54,508,Chronic respiratory diseases,2,Percent,2017,0.00158554428705,0.00207900679364,0.00116754171206
+6,Incidence,6,China,2,Female,15,50 to 54,508,Chronic respiratory diseases,2,Percent,2017,0.00123178141511,0.00165925292561,0.000875599731945
+6,Incidence,6,China,1,Male,15,50 to 54,508,Chronic respiratory diseases,3,Rate,2017,567.2690116279999,703.4035366520001,429.63051282900005
+6,Incidence,6,China,2,Female,15,50 to 54,508,Chronic respiratory diseases,3,Rate,2017,453.995046385,585.246457778,332.783430127
+6,Incidence,6,China,1,Male,16,55 to 59,508,Chronic respiratory diseases,1,Number,2017,313682.771779,406706.788772,236513.972606
+6,Incidence,6,China,2,Female,16,55 to 59,508,Chronic respiratory diseases,1,Number,2017,248224.500583,333498.845733,180519.787512
+6,Incidence,6,China,1,Male,16,55 to 59,508,Chronic respiratory diseases,2,Percent,2017,0.00222891430807,0.00306104292787,0.00158838682744
+6,Incidence,6,China,2,Female,16,55 to 59,508,Chronic respiratory diseases,2,Percent,2017,0.00173624409546,0.00244347330163,0.0012171579673
+6,Incidence,6,China,1,Male,16,55 to 59,508,Chronic respiratory diseases,3,Rate,2017,770.701580215,999.256551493,581.1020203520001
+6,Incidence,6,China,2,Female,16,55 to 59,508,Chronic respiratory diseases,3,Rate,2017,622.8862674540001,836.8708597699999,452.990322795
+6,Incidence,6,China,1,Male,17,60 to 64,508,Chronic respiratory diseases,1,Number,2017,454669.040186,586537.847779,342633.103706
+6,Incidence,6,China,2,Female,17,60 to 64,508,Chronic respiratory diseases,1,Number,2017,374993.205554,491806.47117,270304.744649
+6,Incidence,6,China,1,Male,17,60 to 64,508,Chronic respiratory diseases,2,Percent,2017,0.00320683666002,0.004307924935,0.00227491150234
+6,Incidence,6,China,2,Female,17,60 to 64,508,Chronic respiratory diseases,2,Percent,2017,0.0025382304191,0.00345924254659,0.00175837541472
+6,Incidence,6,China,1,Male,17,60 to 64,508,Chronic respiratory diseases,3,Rate,2017,1094.7845769799999,1412.30770694,825.016450089
+6,Incidence,6,China,2,Female,17,60 to 64,508,Chronic respiratory diseases,3,Rate,2017,908.959293088,1192.1070988699998,655.201230249
+6,Incidence,6,China,1,Male,18,65 to 69,508,Chronic respiratory diseases,1,Number,2017,444815.649185,551280.743149,345140.512021
+6,Incidence,6,China,2,Female,18,65 to 69,508,Chronic respiratory diseases,1,Number,2017,383596.157839,496761.436467,286608.73387
+6,Incidence,6,China,1,Male,18,65 to 69,508,Chronic respiratory diseases,2,Percent,2017,0.00398762341035,0.00512661776874,0.00297778300152
+6,Incidence,6,China,2,Female,18,65 to 69,508,Chronic respiratory diseases,2,Percent,2017,0.00316809726779,0.00419045343984,0.00230826164673
+6,Incidence,6,China,1,Male,18,65 to 69,508,Chronic respiratory diseases,3,Rate,2017,1475.74915035,1828.96462793,1145.0604723600002
+6,Incidence,6,China,2,Female,18,65 to 69,508,Chronic respiratory diseases,3,Rate,2017,1234.70545698,1598.95776818,922.525839988
+6,Incidence,6,China,1,Male,19,70 to 74,508,Chronic respiratory diseases,1,Number,2017,352685.618093,460201.588315,267292.320704
+6,Incidence,6,China,2,Female,19,70 to 74,508,Chronic respiratory diseases,1,Number,2017,302706.909775,407098.835912,216969.419227
+6,Incidence,6,China,1,Male,19,70 to 74,508,Chronic respiratory diseases,2,Percent,2017,0.00440954643838,0.00587284001871,0.00320284847328
+6,Incidence,6,China,2,Female,19,70 to 74,508,Chronic respiratory diseases,2,Percent,2017,0.00345905757237,0.00478301442392,0.00244718380737
+6,Incidence,6,China,1,Male,19,70 to 74,508,Chronic respiratory diseases,3,Rate,2017,1768.3455137700003,2307.4244380200003,1340.1884055799999
+6,Incidence,6,China,2,Female,19,70 to 74,508,Chronic respiratory diseases,3,Rate,2017,1454.5364061599998,1956.14985526,1042.55935064
+6,Incidence,6,China,1,Male,20,75 to 79,508,Chronic respiratory diseases,1,Number,2017,261515.428642,338824.932913,198691.779633
+6,Incidence,6,China,2,Female,20,75 to 79,508,Chronic respiratory diseases,1,Number,2017,225551.336511,301602.786766,162887.036569
+6,Incidence,6,China,1,Male,20,75 to 79,508,Chronic respiratory diseases,2,Percent,2017,0.00451580424498,0.00594945891085,0.00332158703366
+6,Incidence,6,China,2,Female,20,75 to 79,508,Chronic respiratory diseases,2,Percent,2017,0.00347102700795,0.00475336023955,0.00243288312444
+6,Incidence,6,China,1,Male,20,75 to 79,508,Chronic respiratory diseases,3,Rate,2017,1921.5676129700003,2489.6237324500003,1459.9509126
+6,Incidence,6,China,2,Female,20,75 to 79,508,Chronic respiratory diseases,3,Rate,2017,1541.3260512,2061.03071498,1113.10372507
+6,Incidence,6,China,1,Male,21,80 plus,508,Chronic respiratory diseases,1,Number,2017,290999.082312,355851.514822,234126.594543
+6,Incidence,6,China,2,Female,21,80 plus,508,Chronic respiratory diseases,1,Number,2017,358844.665983,447716.578176,282283.728952
+6,Incidence,6,China,1,Male,21,80 plus,508,Chronic respiratory diseases,2,Percent,2017,0.00438205876037,0.00544580636133,0.00344691241375
+6,Incidence,6,China,2,Female,21,80 plus,508,Chronic respiratory diseases,2,Percent,2017,0.0041239842083,0.00518361089254,0.0032257803082
+6,Incidence,6,China,1,Male,21,80 plus,508,Chronic respiratory diseases,3,Rate,2017,2327.61057748,2846.34488649,1872.70534875
+6,Incidence,6,China,2,Female,21,80 plus,508,Chronic respiratory diseases,3,Rate,2017,2111.61139383,2634.5756738299997,1661.0907026200002
+6,Incidence,6,China,1,Male,5,1 to 4,587,Diabetes mellitus,1,Number,2017,1186.73025168,1694.81092602,821.570098591
+6,Incidence,6,China,2,Female,5,1 to 4,587,Diabetes mellitus,1,Number,2017,891.339355176,1349.52549991,591.524088414
+6,Incidence,6,China,1,Male,5,1 to 4,587,Diabetes mellitus,2,Percent,2017,6.07307050989e-06,8.96926885708e-06,3.97732097364e-06
+6,Incidence,6,China,2,Female,5,1 to 4,587,Diabetes mellitus,2,Percent,2017,5.35221426825e-06,8.33341425189e-06,3.41606241095e-06
+6,Incidence,6,China,1,Male,5,1 to 4,587,Diabetes mellitus,3,Rate,2017,3.54628743888,5.06457696663,2.45508506813
+6,Incidence,6,China,2,Female,5,1 to 4,587,Diabetes mellitus,3,Rate,2017,3.12312467274,4.7285429065799995,2.0726151766
+6,Incidence,6,China,1,Male,6,5 to 9,587,Diabetes mellitus,1,Number,2017,1771.95536694,2494.59772314,1183.95646261
+6,Incidence,6,China,2,Female,6,5 to 9,587,Diabetes mellitus,1,Number,2017,1526.64566696,2054.28398348,1034.77853864
+6,Incidence,6,China,1,Male,6,5 to 9,587,Diabetes mellitus,2,Percent,2017,9.33260077713e-06,1.34916947356e-05,6.09164052813e-06
+6,Incidence,6,China,2,Female,6,5 to 9,587,Diabetes mellitus,2,Percent,2017,9.52741118713e-06,1.32452959505e-05,6.25481814557e-06
+6,Incidence,6,China,1,Male,6,5 to 9,587,Diabetes mellitus,3,Rate,2017,4.5203278636399995,6.363816948689999,3.02031952221
+6,Incidence,6,China,2,Female,6,5 to 9,587,Diabetes mellitus,3,Rate,2017,4.63810496194,6.24112388568,3.14376254979
+6,Incidence,6,China,1,Male,7,10 to 14,587,Diabetes mellitus,1,Number,2017,10676.5305744,16878.5294202,5752.5506562
+6,Incidence,6,China,2,Female,7,10 to 14,587,Diabetes mellitus,1,Number,2017,4479.16072038,7040.46167013,2500.43066319
+6,Incidence,6,China,1,Male,7,10 to 14,587,Diabetes mellitus,2,Percent,2017,7.13449539534e-05,0.000117857611421,3.68783849918e-05
+6,Incidence,6,China,2,Female,7,10 to 14,587,Diabetes mellitus,2,Percent,2017,3.49811487148e-05,5.72234338717e-05,1.88622897016e-05
+6,Incidence,6,China,1,Male,7,10 to 14,587,Diabetes mellitus,3,Rate,2017,26.8229577951,42.4044195937,14.4523000604
+6,Incidence,6,China,2,Female,7,10 to 14,587,Diabetes mellitus,3,Rate,2017,13.3085268135,20.918689630899998,7.42930441745
+6,Incidence,6,China,1,Male,8,15 to 19,587,Diabetes mellitus,1,Number,2017,124654.971373,167791.907178,84094.2902135
+6,Incidence,6,China,2,Female,8,15 to 19,587,Diabetes mellitus,1,Number,2017,74727.8355688,98818.1132718,51347.4979712
+6,Incidence,6,China,1,Male,8,15 to 19,587,Diabetes mellitus,2,Percent,2017,0.000780961504629,0.00110488332789,0.000496300342829
+6,Incidence,6,China,2,Female,8,15 to 19,587,Diabetes mellitus,2,Percent,2017,0.000520845470395,0.000727737571335,0.000334416962532
+6,Incidence,6,China,1,Male,8,15 to 19,587,Diabetes mellitus,3,Rate,2017,304.64918957,410.07324437200003,205.521344868
+6,Incidence,6,China,2,Female,8,15 to 19,587,Diabetes mellitus,3,Rate,2017,207.365421532,274.214548804,142.48633698999998
+6,Incidence,6,China,1,Male,9,20 to 24,587,Diabetes mellitus,1,Number,2017,218274.647545,287537.653337,160348.744749
+6,Incidence,6,China,2,Female,9,20 to 24,587,Diabetes mellitus,1,Number,2017,134644.797408,170689.460284,100312.507088
+6,Incidence,6,China,1,Male,9,20 to 24,587,Diabetes mellitus,2,Percent,2017,0.00108377625807,0.00146526661005,0.000741301150902
+6,Incidence,6,China,2,Female,9,20 to 24,587,Diabetes mellitus,2,Percent,2017,0.000724727381314,0.000968749060014,0.000511017370955
+6,Incidence,6,China,1,Male,9,20 to 24,587,Diabetes mellitus,3,Rate,2017,460.30589754799996,606.370364523,338.149545549
+6,Incidence,6,China,2,Female,9,20 to 24,587,Diabetes mellitus,3,Rate,2017,304.53074965999997,386.05419815799996,226.88023281899999
+6,Incidence,6,China,1,Male,10,25 to 29,587,Diabetes mellitus,1,Number,2017,183569.577218,269731.060245,113251.639782
+6,Incidence,6,China,2,Female,10,25 to 29,587,Diabetes mellitus,1,Number,2017,101055.886714,153164.111115,62959.0903061
+6,Incidence,6,China,1,Male,10,25 to 29,587,Diabetes mellitus,2,Percent,2017,0.000688684309881,0.00104701675474,0.000406625549686
+6,Incidence,6,China,2,Female,10,25 to 29,587,Diabetes mellitus,2,Percent,2017,0.000389444228754,0.000596641192004,0.000231938577565
+6,Incidence,6,China,1,Male,10,25 to 29,587,Diabetes mellitus,3,Rate,2017,295.956488111,434.86866688099997,182.587758226
+6,Incidence,6,China,2,Female,10,25 to 29,587,Diabetes mellitus,3,Rate,2017,165.74629852700002,251.211337708,103.26203169600001
+6,Incidence,6,China,1,Male,11,30 to 34,587,Diabetes mellitus,1,Number,2017,152315.269193,218328.073554,91215.0355607
+6,Incidence,6,China,2,Female,11,30 to 34,587,Diabetes mellitus,1,Number,2017,85492.1233148,122652.731334,53766.5797736
+6,Incidence,6,China,1,Male,11,30 to 34,587,Diabetes mellitus,2,Percent,2017,0.000613390895345,0.000920537201972,0.000361652329369
+6,Incidence,6,China,2,Female,11,30 to 34,587,Diabetes mellitus,2,Percent,2017,0.000349676938087,0.000518302409111,0.000211841986863
+6,Incidence,6,China,1,Male,11,30 to 34,587,Diabetes mellitus,3,Rate,2017,251.882246442,361.046964755,150.841397504
+6,Incidence,6,China,2,Female,11,30 to 34,587,Diabetes mellitus,3,Rate,2017,145.213035661,208.33235575999998,91.3254690993
+6,Incidence,6,China,1,Male,12,35 to 39,587,Diabetes mellitus,1,Number,2017,140508.775938,208401.017214,89238.3641907
+6,Incidence,6,China,2,Female,12,35 to 39,587,Diabetes mellitus,1,Number,2017,87634.1261255,132011.811131,52505.4284298
+6,Incidence,6,China,1,Male,12,35 to 39,587,Diabetes mellitus,2,Percent,2017,0.000707136847012,0.00105240910018,0.00042617091337
+6,Incidence,6,China,2,Female,12,35 to 39,587,Diabetes mellitus,2,Percent,2017,0.000446716310577,0.000689067473792,0.000260960493802
+6,Incidence,6,China,1,Male,12,35 to 39,587,Diabetes mellitus,3,Rate,2017,283.487283172,420.46511177400004,180.045276533
+6,Incidence,6,China,2,Female,12,35 to 39,587,Diabetes mellitus,3,Rate,2017,183.371143757,276.229796163,109.86565268900002
+6,Incidence,6,China,1,Male,13,40 to 44,587,Diabetes mellitus,1,Number,2017,168361.885195,236335.542815,111682.216578
+6,Incidence,6,China,2,Female,13,40 to 44,587,Diabetes mellitus,1,Number,2017,152696.745531,202400.095796,112267.472551
+6,Incidence,6,China,1,Male,13,40 to 44,587,Diabetes mellitus,2,Percent,2017,0.000772907158839,0.00114959923109,0.000482399775672
+6,Incidence,6,China,2,Female,13,40 to 44,587,Diabetes mellitus,2,Percent,2017,0.000700515052703,0.000961152291844,0.000478900554713
+6,Incidence,6,China,1,Male,13,40 to 44,587,Diabetes mellitus,3,Rate,2017,298.419711914,418.902321748,197.955581565
+6,Incidence,6,China,2,Female,13,40 to 44,587,Diabetes mellitus,3,Rate,2017,280.72026602399995,372.09574138199997,206.39441037699999
+6,Incidence,6,China,1,Male,14,45 to 49,587,Diabetes mellitus,1,Number,2017,190904.254063,278022.733514,129710.194474
+6,Incidence,6,China,2,Female,14,45 to 49,587,Diabetes mellitus,1,Number,2017,266383.925918,365621.382153,181374.530604
+6,Incidence,6,China,1,Male,14,45 to 49,587,Diabetes mellitus,2,Percent,2017,0.000817885907029,0.00125909180263,0.000517687269896
+6,Incidence,6,China,2,Female,14,45 to 49,587,Diabetes mellitus,2,Percent,2017,0.00114102965595,0.0016457891683,0.000740904814522
+6,Incidence,6,China,1,Male,14,45 to 49,587,Diabetes mellitus,3,Rate,2017,300.32121594,437.371737983,204.05372062200001
+6,Incidence,6,China,2,Female,14,45 to 49,587,Diabetes mellitus,3,Rate,2017,434.665095615,596.5932534570001,295.953208946
+6,Incidence,6,China,1,Male,15,50 to 54,587,Diabetes mellitus,1,Number,2017,163879.37808,248015.436822,104247.518467
+6,Incidence,6,China,2,Female,15,50 to 54,587,Diabetes mellitus,1,Number,2017,287492.581281,373875.257541,209339.026298
+6,Incidence,6,China,1,Male,15,50 to 54,587,Diabetes mellitus,2,Percent,2017,0.000764381707754,0.00120542515437,0.000468573411289
+6,Incidence,6,China,2,Female,15,50 to 54,587,Diabetes mellitus,2,Percent,2017,0.00131243617032,0.00181519743893,0.000907114364341
+6,Incidence,6,China,1,Male,15,50 to 54,587,Diabetes mellitus,3,Rate,2017,273.17741172,413.427338396,173.774562771
+6,Incidence,6,China,2,Female,15,50 to 54,587,Diabetes mellitus,3,Rate,2017,483.217803979,628.409888373,351.85723444999996
+6,Incidence,6,China,1,Male,16,55 to 59,587,Diabetes mellitus,1,Number,2017,88649.9852497,127385.568636,57251.2776859
+6,Incidence,6,China,2,Female,16,55 to 59,587,Diabetes mellitus,1,Number,2017,173531.340276,230061.318693,128016.965884
+6,Incidence,6,China,1,Male,16,55 to 59,587,Diabetes mellitus,2,Percent,2017,0.00062993904117,0.000938225567656,0.000391697067234
+6,Incidence,6,China,2,Female,16,55 to 59,587,Diabetes mellitus,2,Percent,2017,0.00121377043183,0.00166680421672,0.000857325034118
+6,Incidence,6,China,1,Male,16,55 to 59,587,Diabetes mellitus,3,Rate,2017,217.80821219599997,312.97944253400004,140.663288365
+6,Incidence,6,China,2,Female,16,55 to 59,587,Diabetes mellitus,3,Rate,2017,435.453746818,577.3081857340001,321.241496562
+6,Incidence,6,China,1,Male,17,60 to 64,587,Diabetes mellitus,1,Number,2017,76728.8086242,115419.648928,45373.0960472
+6,Incidence,6,China,2,Female,17,60 to 64,587,Diabetes mellitus,1,Number,2017,150600.725297,212453.368498,101370.033603
+6,Incidence,6,China,1,Male,17,60 to 64,587,Diabetes mellitus,2,Percent,2017,0.000540597387028,0.000836972915653,0.000321614526576
+6,Incidence,6,China,2,Female,17,60 to 64,587,Diabetes mellitus,2,Percent,2017,0.00101813387317,0.00147825011312,0.00066968641664
+6,Incidence,6,China,1,Male,17,60 to 64,587,Diabetes mellitus,3,Rate,2017,184.753103614,277.915671309,109.25258016699999
+6,Incidence,6,China,2,Female,17,60 to 64,587,Diabetes mellitus,3,Rate,2017,365.046424247,514.973233604,245.71440953899997
+6,Incidence,6,China,1,Male,18,65 to 69,587,Diabetes mellitus,1,Number,2017,52571.3889585,77245.7733784,31636.5402561
+6,Incidence,6,China,2,Female,18,65 to 69,587,Diabetes mellitus,1,Number,2017,85489.9477727,116607.306493,57005.6757906
+6,Incidence,6,China,1,Male,18,65 to 69,587,Diabetes mellitus,2,Percent,2017,0.000471314406241,0.000698359474123,0.000283496528939
+6,Incidence,6,China,2,Female,18,65 to 69,587,Diabetes mellitus,2,Percent,2017,0.000706007805068,0.000976868993824,0.000454690269795
+6,Incidence,6,China,1,Male,18,65 to 69,587,Diabetes mellitus,3,Rate,2017,174.414238192,256.27557088,104.95943092
+6,Incidence,6,China,2,Female,18,65 to 69,587,Diabetes mellitus,3,Rate,2017,275.171955909,375.331386168,183.487810133
+6,Incidence,6,China,1,Male,19,70 to 74,587,Diabetes mellitus,1,Number,2017,32859.2832289,48749.1538996,19746.7794528
+6,Incidence,6,China,2,Female,19,70 to 74,587,Diabetes mellitus,1,Number,2017,44636.566783,65231.5790321,27059.2794474
+6,Incidence,6,China,1,Male,19,70 to 74,587,Diabetes mellitus,2,Percent,2017,0.000410539338891,0.000617213435663,0.000243530735278
+6,Incidence,6,China,2,Female,19,70 to 74,587,Diabetes mellitus,2,Percent,2017,0.000509698505631,0.000748704845218,0.000304557802648
+6,Incidence,6,China,1,Male,19,70 to 74,587,Diabetes mellitus,3,Rate,2017,164.754566397,244.425468962,99.0092225636
+6,Incidence,6,China,2,Female,19,70 to 74,587,Diabetes mellitus,3,Rate,2017,214.483083588,313.44413843899997,130.022493078
+6,Incidence,6,China,1,Male,20,75 to 79,587,Diabetes mellitus,1,Number,2017,21211.1821221,32043.0359243,14165.483029
+6,Incidence,6,China,2,Female,20,75 to 79,587,Diabetes mellitus,1,Number,2017,26358.4561425,37682.2711982,17858.013268
+6,Incidence,6,China,1,Male,20,75 to 79,587,Diabetes mellitus,2,Percent,2017,0.000366345701759,0.00056935463662,0.000233642672834
+6,Incidence,6,China,2,Female,20,75 to 79,587,Diabetes mellitus,2,Percent,2017,0.000405617031336,0.000591956656401,0.000268613083642
+6,Incidence,6,China,1,Male,20,75 to 79,587,Diabetes mellitus,3,Rate,2017,155.855892749,235.446376426,104.085382465
+6,Incidence,6,China,2,Female,20,75 to 79,587,Diabetes mellitus,3,Rate,2017,180.122963358,257.505307503,122.034395798
+6,Incidence,6,China,1,Male,21,80 plus,587,Diabetes mellitus,1,Number,2017,13391.0948236,20148.8005662,8609.96277768
+6,Incidence,6,China,2,Female,21,80 plus,587,Diabetes mellitus,1,Number,2017,18564.85722,26813.3966696,12263.6830631
+6,Incidence,6,China,1,Male,21,80 plus,587,Diabetes mellitus,2,Percent,2017,0.000201631950914,0.000305085318459,0.000127759557407
+6,Incidence,6,China,2,Female,21,80 plus,587,Diabetes mellitus,2,Percent,2017,0.000213311127078,0.00031353084771,0.000141736539363
+6,Incidence,6,China,1,Male,21,80 plus,587,Diabetes mellitus,3,Rate,2017,107.11117611700001,161.163949208,68.86839736339999
+6,Incidence,6,China,2,Female,21,80 plus,587,Diabetes mellitus,3,Rate,2017,109.24438272799999,157.782682264,72.1652997559
