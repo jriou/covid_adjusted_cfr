@@ -17,3 +17,5 @@
 *.Rproj
 *.Rdata
 .Rproj.user
+*.sh
+data_S*

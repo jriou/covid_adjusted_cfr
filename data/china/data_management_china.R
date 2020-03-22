@@ -38,6 +38,7 @@ confirmed_cases = read.csv("data/china/confirmed_cases.csv") %>%
   filter(date>=day_data)
 incidence_cases = pull(confirmed_cases,confirmed_cases_hubei)
 
+
 ## Deaths incidence in Hubei up to 2020-02-11 (GuangchuangYu) -------
 
 # Death incidence in China
@@ -47,7 +48,7 @@ incidence_cases = pull(confirmed_cases,confirmed_cases_hubei)
 # china_incidence = summary(x) %>%
 #   tbl_df() %>%
 #   mutate(date=as.Date(date,"%m.%d")) %>%
-#   filter(date<=day_tmax,date>=day_data) %>%
+#   filter(date<=day_max,date>=day_data) %>%
 #   mutate(incidence=confirm-lag(confirm,default=0))%>%
 #   mutate(mort=dead-lag(dead,default=0))
 # save(china_incidence,file="data/china/china_incidence.Rdata")
@@ -62,10 +63,11 @@ sum(china_incidence$incidence)
 #   xlab(NULL) + ylab(NULL)
 
 death = china_incidence$mort
-incidence_deaths_tot = c(rep(0,day_tmax-day_data+1-length(death)),death)
+incidence_deaths_tot = c(rep(0,day_max-day_data+1-length(death)),death)
 
 # Correct for confirmed cases in Hubei only (979 total)
 incidence_deaths = round(979/sum(incidence_deaths_tot)*incidence_deaths_tot)
+
 
 
 ## Age distribution of cases in mainland China as of 2020-02-11 ----
@@ -157,6 +159,17 @@ dist_cvd_pop =
   mutate(p=Number/sample_size) %>%
   pull(p)
 
+dist_hypertension_pop = c(.01,.01,0.087,0.123,0.199,0.338,0.480,.611,.611)
 
-
-
+# Later deaths
+laterdeaths = read.csv("data/china/time_series_19-covid-Deaths.csv") %>%
+  tbl_df() %>%
+  filter(Country.Region=="China",Province.State=="Hubei") %>%
+  gather("date","mort",5:57) %>%
+  mutate(date2=gsub("X","",date),
+         date2=mdy(date2),
+         deaths=mort-lag(mort,1,default = 0)) 
+  
+  
+  
+  

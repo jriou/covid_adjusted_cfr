@@ -1,0 +1,253 @@
+\begin{thebibliography}{10}
+
+\bibitem{whoreport61}
+{World Health Organization}.
+\newblock {Coronavirus disease 2019 (COVID-19) Situation Report 61}.
+\newblock
+  \url{https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200321-sitrep-61-covid-19.pdf?sfvrsn=f201f85c_2},
+  2020.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{wang2020novel}
+Chen Wang, Peter~W Horby, Frederick~G Hayden, and George~F Gao.
+\newblock A novel coronavirus outbreak of global health concern.
+\newblock {\em The Lancet}, 395(10223):470--473, 2020.
+
+\bibitem{huang2020clinical}
+Chaolin Huang, Yeming Wang, Xingwang Li, Lili Ren, Jianping Zhao, Yi~Hu,
+  Li~Zhang, Guohui Fan, Jiuyang Xu, Xiaoying Gu, et~al.
+\newblock Clinical features of patients infected with 2019 novel coronavirus in
+  wuhan, china.
+\newblock {\em The Lancet}, 395(10223):497--506, 2020.
+
+\bibitem{jointmission}
+{World Health Organization-China Joint Mission on Coronavirus Disease 2019
+  Group}.
+\newblock {Report of the WHO-China Joint Mission on Coronavirus Disease 2019
+  (COVID-19)}.
+\newblock
+  \url{https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf},
+  2020.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{zhou2020pneumonia}
+Peng Zhou, Xing-Lou Yang, Xian-Guang Wang, Ben Hu, Lei Zhang, Wei Zhang,
+  Hao-Rui Si, Yan Zhu, Bei Li, Chao-Lin Huang, et~al.
+\newblock A pneumonia outbreak associated with a new coronavirus of probable
+  bat origin.
+\newblock {\em Nature}, 579:270--273, 2020.
+
+\bibitem{gorbalenya2020severe}
+Alexander~E. Gorbalenya, Susan~C. Baker, Ralph~S. Baric, Raoul~J. de~Groot,
+  Christian Drosten, Anastasia~A. Gulyaeva, Bart~L. Haagmans, Chris Lauber,
+  Andrey~M Leontovich, Benjamin~W. Neuman, Dmitry Penzar, Stanley Perlman,
+  Leo~L.M. Poon, Dmitry Samborskiy, Igor~A. Sidorov, Isabel Sola, and John
+  Ziebuhr.
+\newblock Severe acute respiratory syndrome-related coronavirus--the species
+  and its viruses, a statement of the coronavirus study group.
+\newblock {\em BioRxiv}, 2020.
+
+\bibitem{riou2020pattern}
+Julien Riou and Christian~L Althaus.
+\newblock Pattern of early human-to-human transmission of wuhan 2019 novel
+  coronavirus (2019-ncov), december 2019 to january 2020.
+\newblock {\em Eurosurveillance}, 25(4), 2020.
+
+\bibitem{whospeech}
+{World Health Organization}.
+\newblock {WHO Director-General's opening remarks at the media briefing on
+  COVID-19 - 3 March 2020}, 2020.
+
+\bibitem{Lipsitch2015}
+Marc Lipsitch, Christl~A Donnelly, Christophe Fraser, Isobel~M Blake, Anne
+  Cori, Ilaria Dorigatti, Neil~M Ferguson, Tini Garske, Harriet~L Mills, and
+  Steven Riley.
+\newblock {Potential biases in estimating absolute and relative case-fatality
+  risks during outbreaks}.
+\newblock {\em PLoS neglected tropical diseases}, 9(7), 2015.
+
+\bibitem{Battegay2020}
+Manuel Battegay, Richard Kuehl, Sarah Tschudin-Sutter, Hans~H Hirsch, Andreas~F
+  Widmer, and Richard~A Neher.
+\newblock {2019-novel Coronavirus (2019-nCoV): estimating the case fatality
+  rate–a word of caution}.
+\newblock {\em Swiss Medical Weekly}, 150(0506), 2020.
+
+\bibitem{WorldHealthOrganization202046}
+{World Health Organization}.
+\newblock {Coronavirus disease 2019 (COVID-19) Situation Report 46}.
+\newblock
+  \url{https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200306-sitrep-46-covid-19.pdf?sfvrsn=96b04adf_2},
+  2020.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{nCov2019}
+{nCov2019: An R package with real-time data and historical data and Shiny app}.
+\newblock \url{https://github.com/GuangchuangYu/nCov2019}, 2020.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{zhang2019patterns}
+Juanjuan Zhang, Petra Klepac, Jonathan~M Read, Alicia Rosello, Xiling Wang,
+  Shengjie Lai, Meng Li, Yujian Song, Qingzhen Wei, Hao Jiang, et~al.
+\newblock patterns of human social contact and contact with animals in
+  shanghai, china.
+\newblock {\em Scientific reports}, 9(1):1--11, 2019.
+
+\bibitem{ihme}
+{Institute for Health Metrics and Evaluation}.
+\newblock {Global Health Data Exchange}.
+\newblock \url{http://ghdx.healthdata.org/ihme_data}, 2020.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{Civile}
+Presidenza del Consiglio dei Ministri Dipartimento della~Protezione Civile.
+\newblock {GitHub repository on COVID-19}.
+\newblock \url{https://github.com/pcm-dpc}.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{IstitutoSuperiorediSanita}
+{Istituto Superiore di Sanita}.
+\newblock {COVID-19 integrated surveillance: the main national data}.
+\newblock
+  \url{https://www.epicentro.iss.it/coronavirus/sars-cov-2-sorveglianza-dati}.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{mossong2008social}
+Jo{\"e}l Mossong, Niel Hens, Mark Jit, Philippe Beutels, Kari Auranen, Rafael
+  Mikolajczyk, Marco Massari, Stefania Salmaso, Gianpaolo~Scalia Tomba, Jacco
+  Wallinga, et~al.
+\newblock Social contacts and mixing patterns relevant to the spread of
+  infectious diseases.
+\newblock {\em PLoS medicine}, 5(3), 2008.
+
+\bibitem{Bi2020}
+Qifang Bi, Yongsheng Wu, Shujiang Mei, Chenfei Ye, Xuan Zou, Zhen Zhang,
+  Xiaojian Liu, Lan Wei, Shaun~A Truelove, Tong Zhang, Wei Gao, Cong Cheng,
+  Xiujuan Tang, Xiaoliang Wu, Yu~Wu, Binbin Sun, Suli Huang, Yu~Sun, Juncen
+  Zhang, Ting Ma, Justin Lessler, and Teijian Feng.
+\newblock {Epidemiology and Transmission of COVID-19 in Shenzhen China:
+  Analysis of 391 cases and 1,286 of their close contacts}.
+\newblock {\em medRxiv}, page 2020.03.03.20028423, mar 2020.
+
+\bibitem{mizumoto2020estimating}
+Kenji Mizumoto, Katsushi Kagaya, Alexander Zarebski, and Gerardo Chowell.
+\newblock {Estimating the asymptomatic proportion of coronavirus disease 2019
+  (COVID-19) cases on board the Diamond Princess cruise ship, Yokohama, Japan,
+  2020}.
+\newblock {\em Eurosurveillance}, 25(10), 2020.
+
+\bibitem{JapaneseNationalInstituteofInfectiousDiseases2020}
+{Japanese National Institute of Infectious Diseases}.
+\newblock {Field Briefing: Diamond Princess COVID-19 Cases}.
+\newblock
+  \url{https://www.niid.go.jp/niid/en/2019-ncov-e/9407-covid-dp-fe-01.html},
+  2020.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{linton2020incubation}
+Natalie~M Linton, Tetsuro Kobayashi, Yichi Yang, Katsuma Hayashi, Andrei~R
+  Akhmetzhanov, Sung-mok Jung, Baoyin Yuan, Ryo Kinoshita, and Hiroshi
+  Nishiura.
+\newblock Incubation period and other epidemiological characteristics of 2019
+  novel coronavirus infections with right truncation: A statistical analysis of
+  publicly available case data.
+\newblock {\em Journal of Clinical Medicine}, 9(2):538, 2020.
+
+\bibitem{Carpenter2017}
+Bob Carpenter, Andrew Gelman, Matthew~D Hoffman, Daniel Lee, Ben Goodrich,
+  Michael Betancourt, Marcus Brubaker, Jiqiang Guo, Peter Li, and Allen
+  Riddell.
+\newblock {Stan: A probabilistic programming language}.
+\newblock {\em Journal of statistical software}, 76(1), 2017.
+
+\bibitem{pellis2020systematic}
+Lorenzo Pellis, Simon Cauchemez, Neil~M Ferguson, and Christophe Fraser.
+\newblock Systematic selection between age and household structure for models
+  aimed at emerging epidemic predictions.
+\newblock {\em Nature Communications}, 11(1):1--11, 2020.
+
+\bibitem{perez2009residual}
+Emilio P{\'e}rez-Trallero, Luis Pi{\~n}eiro, Decio Vicente, Milagrosa Montes,
+  and Gustavo Cilla.
+\newblock {Residual immunity in older people against the influenza A
+  (H1N1)--recent experience in northern Spain}.
+\newblock {\em Eurosurveillance}, 14(39):19344, 2009.
+
+\bibitem{carrat2008time}
+Fabrice Carrat, Elisabeta Vergu, Neil~M Ferguson, Magali Lemaitre, Simon
+  Cauchemez, Steve Leach, and Alain-Jacques Valleron.
+\newblock Time lines of infection and disease in human influenza: a review of
+  volunteer challenge studies.
+\newblock {\em American journal of epidemiology}, 167(7):775--785, 2008.
+
+\bibitem{Verity2020}
+Robert Verity, Lucy~C Okell, Ilaria Dorigatti, Peter Winskill, Charles
+  Whittaker, Natsuko Imai, Gina Cuomo-Dannenburg, Hayley Thompson, Patrick
+  Walker, Han Fu, Amy Dighe, Jamie Griffin, Anne Cori, Marc Baguelin, Sangeeta
+  Bhatia, Adhiratha Boonyasiri, Zulma~M Cucunuba, Rich Fitzjohn, Katy A~M
+  Gaythorpe, Will Green, Arran Hamlet, Wes Hinsley, Daniel Laydon, Gemma
+  Nedjati-Gilani, Steven Riley, Sabine Van-Elsand, Erik Volz, Haowei Wang,
+  Yuanrong Wang, Xiayoue Xi, Christl Donnelly, Azra Ghani, and Neil Ferguson.
+\newblock {Estimates of the severity of COVID-19 disease}.
+\newblock {\em medRxiv}, page 2020.03.09.20033357, mar 2020.
+
+\bibitem{Team2020}
+{The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team}.
+\newblock {Vital Surveillances: The Epidemiological Characteristics of an
+  Outbreak of 2019 Novel Coronavirus Diseases (COVID-19) — China, 2020}.
+\newblock {\em China CDC Weekly}, 2(8):113--122, 2020.
+
+\bibitem{wang2020estimating}
+Xing Wang, Zihui Ma, Yi~Ning, Chen Chen, Rujin Chen, Qiwen Chen, Heng Zhang,
+  Chunming Li, Yan He, Tao Wang, et~al.
+\newblock Estimating the case fatality ratio of the covid-19 epidemic in china.
+\newblock {\em medRxiv}, 2020.
+
+\bibitem{jung2020real}
+Sung-mok Jung, Andrei~R Akhmetzhanov, Katsuma Hayashi, Natalie~M Linton, Yichi
+  Yang, Baoyin Yuan, Tetsuro Kobayashi, Ryo Kinoshita, and Hiroshi Nishiura.
+\newblock Real-time estimation of the risk of death from novel coronavirus
+  (covid-19) infection: Inference using exported cases.
+\newblock {\em Journal of clinical medicine}, 9(2):523, 2020.
+
+\bibitem{Dorigatti}
+Ilaria Dorigatti, Lucy Okell, Anne Cori, Natsuko Imai, Marc Baguelin, and
+  Sangeeta Bhatia.
+\newblock {Severity of 2019 novel coronavirus (nCoV)}.
+\newblock
+  \url{https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-
+  College-2019-nCoV-severity-10-02-2020.pdf}, 2020.
+\newblock Accessed: 2020-03-22.
+
+\bibitem{riou2020adjusted}
+Julien Riou, Anthony Hauser, Michel~J Counotte, and Christian~L Althaus.
+\newblock {Adjusted age-specific case fatality ratio during the COVID-19
+  epidemic in Hubei, China, January and February 2020}.
+\newblock {\em medRxiv}, 2020.
+\newblock \url{https://www.medrxiv.org/content/10.1101/2020.03.04.20031104v1}
+  Accessed: 2020-03-22.
+
+\bibitem{hethcote2000mathematics}
+Herbert~W Hethcote.
+\newblock The mathematics of infectious diseases.
+\newblock {\em SIAM review}, 42(4):599--653, 2000.
+
+\bibitem{KCDC}
+KCDC.
+\newblock {Press Release KCDC: 2020-3-19}.
+\newblock
+  \url{https://www.cdc.go.kr/board/board.es?mid=a30402000000{\&}bid=0030}.
+\newblock Accessed: 2020-03-19.
+
+\bibitem{shim2020transmission}
+Eunha Shim, Amna Tariq, Wongyeong Choi, Yiseul Lee, and Gerardo Chowell.
+\newblock Transmission potential of covid-19 in south korea.
+\newblock {\em medRxiv}, 2020.
+
+\bibitem{fang2020patients}
+Lei Fang, George Karakiulakis, and Michael Roth.
+\newblock Are patients with hypertension and diabetes mellitus at increased
+  risk for covid-19 infection?
+\newblock {\em The Lancet Respiratory Medicine}, 2020.
+
+\end{thebibliography}

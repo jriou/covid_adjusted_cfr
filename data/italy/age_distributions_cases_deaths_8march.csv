@@ -1,0 +1,10 @@
+age_group,cases,deaths,source
+0,43,0,https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_09-marzo-2020.pdf
+10,85,0,
+20,296,0,
+30,470,0,
+40,891,1,
+50,1453,3,
+60,1471,37,
+70,1785,114,
+80,1532,202,

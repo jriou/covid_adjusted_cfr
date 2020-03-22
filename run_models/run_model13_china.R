@@ -24,7 +24,6 @@ gamma = gamma/sum(gamma)
 # plot(density(rlnorm(1000,linton_pars$mu,linton_pars$sigma)))
 # lines(gamma,col="red")
 
-
 ## Format for stan
 
 t0 = 0
@@ -66,14 +65,14 @@ data_list_model13 = list(
 )
 
 # test
-M_model13 = stan_model("models/model13.stan")
-T_model13 = sampling(M_model13,
-                     data = data_list_model13,
-                     iter = 5,
-                     chains = 1,
-                     init=0,
-                     control=list(max_treedepth=10,adapt_delta=0.8))
-print(T_model13,pars=c("beta","eta","epsilon","rho_K","pi"))
+# M_model13 = stan_model("models/model13.stan")
+# T_model13 = sampling(M_model13,
+#                      data = data_list_model13,
+#                      iter = 5,
+#                      chains = 1,
+#                      init=0,
+#                      control=list(max_treedepth=10,adapt_delta=0.8))
+# print(T_model13,pars=c("beta","eta","epsilon","rho_K","pi"))
 
 
 # Create data and bash files ----
@@ -81,38 +80,30 @@ print(T_model13,pars=c("beta","eta","epsilon","rho_K","pi"))
 data_list_model13$p_psi=c(71,18) 
 bashfile_rdump("model13",id="A",data_list_model13,warmup=500,iter=500,adapt_delta=0.8,max_depth=10,init=0.5,timelimit=96,chains=4)
 
-# symptomatic = 50% (B) (Diamond princess https://www.mhlw.go.jp/stf/newpage_10094.html) 
-data_list_model13$p_psi=c(369,329) 
+# symptomatic = 50% (B) (Diamond princess https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000180) 
+data_list_model13$p_psi=c(522,114)
 bashfile_rdump("model13",id="B",data_list_model13,warmup=500,iter=500,adapt_delta=0.8,max_depth=10,init=0.5,timelimit=96,chains=4)
 
 # Copy on cluster
 # system("scp /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/models/model13.stan /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/sb_model13* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/data_SIM_model13* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/data_S_model13* UBELIX:projects/COVID_age/model/.")
 
 # Copy back posterior samples
-system("scp  UBELIX:projects/covid_adjusted_cfr/model/S_model13_2020-03-02* UBELIX:projects/covid_adjusted_cfr/model/SIM_model13_2020-03-02* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/posterior_samples/.")
+system("scp   UBELIX:projects/COVID_age/model/S_model13B_2020-03-13-15-46-04* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/posterior_samples/.")
+system("scp  UBELIX:projects/COVID_age/model/data_S_model13* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/posterior_samples/.")
 
 # Load posterior samples 
-D_SIM_model1 = read_rdump("posterior_samples/data_SIM_model13.R")
-SIM_model13 = read_stan_csv(paste0("posterior_samples/",dir("posterior_samples",pattern = 'SIM_model13_2020-03-10-14-05-23_[[:digit:]]+.csv')))
-D_S_model1 = read_rdump("posterior_samples/data_S_model13.R")
-S_model13 = read_stan_csv(paste0("posterior_samples/",dir("posterior_samples",pattern = 'S_model13_2020-03-10-14-05-23_[[:digit:]]+.csv')))
+D_S_model13B = read_rdump("posterior_samples/data_S_model13B_2020-03-13-15-46-04.R")
+S_model13B = read_stan_csv(paste0("posterior_samples/",dir("posterior_samples",pattern = 'S_model13B_2020-03-13-15-46-04_[[:digit:]]+.csv')))
 
 # Checks
-check_hmc_diagnostics(SIM_model13)
-check_hmc_diagnostics(S_model13)
-print(SIM_model13,pars=c("beta","eta","epsilon","rho_K","pi","xi","nu","psi"),digits_summary=4)
-print(S_model13,pars=c("beta","eta","epsilon","rho_K","pi","xi","nu","psi"),digits_summary=4)
-print(S_model13,pars=c("cfr_A_symptomatic","cfr_B_symptomatic","cfr_C_symptomatic","cfr_D_symptomatic","cfr_C_all","cfr_D_all"),digits_summary=5)
+check_hmc_diagnostics(S_model13B)
+print(S_model13B,pars=c("beta","eta","epsilon","rho","pi","xi","nu","psi"),digits_summary=4)
+print(S_model13B,pars=c("cfr_A_symptomatic","cfr_B_symptomatic","cfr_C_symptomatic","cfr_D_symptomatic","cfr_C_all","cfr_D_all"),digits_summary=5)
 
 # Save
-save(SIM_model13,D_SIM_model13,
-     S_model13,D_S_model13,
-     file="model13_2020-02-21.Rdata")
+save(S_model13B,D_S_model13B,
+     file="posterior_samples/model13_2020-03-13.Rdata")
 
 
 
 
-print(S_model13,pars=c("beta","eta","epsilon","rho_K","pi"),digits_summary=4)
-
-plot_incidence_cases(SIM_model13,D_SIM_model13)
-plot_incidence_deaths(SIM_model13,D_SIM_model13)

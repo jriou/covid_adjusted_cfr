@@ -87,9 +87,11 @@ data {
   int incidence_deaths[D]; //overal incidence for W weeks
   int agedistr_cases[K]; //number of cases at tmax for the K age classes
   int agedistr_deaths[K]; //mortality at tmax for the K age classes
-  vector[K] com_dist; //proportion of comorbidity by age
-  real comdistr_cases; //number of cases at tmax according to comorbidities
-  real comdistr_deaths; //number of deaths at tmax according to comorbidities
+  vector[K] comorbidity_dist; //proportion of comorbidity by age
+  int k_cases_comorbidity; //number of cases at tmax with comorbidities
+  int n_cases_comorbidity; //number of cases at tmax with known status regarding comorbidities
+  int k_deaths_comorbidity; //number of deaths at tmax with comorbidities
+  int n_deaths_comorbidity;  //number of deaths at tmax with known status regarding comorbidities
   //Parameters in priors
   real p_beta;
   real p_eta[2];
@@ -133,49 +135,45 @@ transformed data {
 parameters{
   real<lower=0,upper=1> beta; // base transmission rate
   real<lower=0,upper=1> eta; // reduction in transmission rate after quarantine measures
-  vector<lower=0,upper=1> [K] epsilon; // age-dependent mortality probability
   vector<lower=0,upper=1> [K] rho; // age-dependent reporting probability
   real<lower=0, upper=1> pi; // number of cases at t0
   real<lower=0> phi[2]; // variance parameters
   real<lower=0,upper=1> xi_raw; // slope of quarantine implementation
   real<lower=0> nu; // shift of quarantine implementation
   real<lower=0,upper=1> psi; // proportion of symptomatics
+  vector<lower=0,upper=1> [K] epsilon; // age-dependent mortality probability without comorbidity
   real chi; // change in mortality due to comobidity
 }
 transformed parameters {
   // transformed parameters
   real xi = xi_raw+0.5;
-  vector[K] p_death_com;
   vector[K] epsilon_com;
-  real output_report_com_n;
-  real output_report_com_p;
-  real output_death_com_n;
-  real output_death_com_p;
-  real output_report_com_mean;
-  real output_report_com_var;
-  real output_death_com_mean;
-  real output_death_com_var;
+  vector[K] epsilon_global;
   // change of format for integrate_ode_rk45
   real theta[6]; // vector of parameters
   real y[S,K*4]; // raw ODE output
-  vector[K] comp_S[S];
-  vector[K] comp_E[S];
-  vector[K] comp_I[S];
-  vector[K] comp_D[S];
-  vector[K] comp_diffD[S];
-  vector[K] comp_C[S+G];
-  vector[K] comp_diffC[S+G];
-  vector[K] comp_diffM[S+G];
-  vector[K] comp_M[S+G];
+  vector[K] comp_S[S]; // susceptible
+  vector[K] comp_E[S]; // exposed
+  vector[K] comp_I[S]; // infectious
+  vector[K] comp_C[S+G]; // cumulative case incidence
+  vector[K] comp_diffC[S+G]; // case incidence 
+  vector[K] comp_D[S+G]; // case incidence with comorbidity
+  vector[K] comp_diffD[S+G]; // case incidence with comorbidity
+  vector[K] comp_M[S+G]; // cumulative mortality
+  vector[K] comp_diffM[S+G]; // mortality
+  vector[K] comp_N[S+G]; // cumulative mortality with comorbidity
+  vector[K] comp_diffN[S+G]; // mortality with comorbidity
   // outcomes
   vector[D] output_incidence_cases; // overall case incidence by day
   vector[D] output_incidence_deaths; // overal mortality incidence by day 
   simplex[K] output_agedistr_cases; // final age distribution of cases
   simplex[K] output_agedistr_deaths; // final age distribution of deaths
+  real<lower=0,upper=1> output_prop_cases_with_comorbidity; // overall case incidence by day
+  real<lower=0,upper=1> output_prop_deaths_with_comorbidity; // overal mortality incidence by day 
   
   // transformed parameters
-  p_death_com = inv_logit( logit(epsilon) + chi ); //probability of death according to age (epsilon) and comorbidity (chi)
-  epsilon_com = epsilon .* (1.0 -com_dist) + p_death_com .* com_dist;
+  epsilon_com = inv_logit( logit(epsilon) + chi ); // probability of death according to age (epsilon) with comorbidity
+  epsilon_global = epsilon .* (1.0 -comorbidity_dist) + epsilon_com .* comorbidity_dist; // probability of deaths in the population
   
   // change of format for integrate_ode_rk45
   theta[1:6] = {beta,eta,xi,nu,pi,psi};
@@ -197,31 +195,36 @@ transformed parameters {
 
       comp_C[i] = (to_vector(y[i,(3*K+1):(4*K)]) + 1.0E-9) * pop_t;
       comp_diffC[i] = i==1 ? comp_C[i,] : 1.0E-9*pop_t + comp_C[i,] - comp_C[i-1,]; // lagged difference of cumulative incidence of symptomatics
+      comp_D[i] = comp_C[i] .* comorbidity_dist;
+      comp_diffD[i] = comp_diffC[i] .* comorbidity_dist;
     }
-    //Incidence and cumulative incidence after S
+    // fill incidence and cumulative incidence after S
     for(g in 1:G){
       comp_C[S+g] = comp_C[S];
       comp_diffC[S+g] = rep_vector(1.0E-9,K);
+      comp_D[S+g] = comp_D[S];
+      comp_diffD[S+g] = rep_vector(1.0E-9,K);
     }
-    //Mortality
-    //set diffM and M to 0
+    // mortality
+    // set diffM and M to 0
     for(i in 1:(G+S)){
       comp_diffM[i] = rep_vector(1.0E-9,K);
-      comp_M[i] = rep_vector(1.0E-9,K);
+      comp_diffN[i] = rep_vector(1.0E-9,K);
     }
-    //compute mortality
+    // compute mortality and cumulative mortality
     for(i in 1:S) {
       for(g in 1:G) {
-        comp_diffM[i+g] += comp_diffC[i] .* epsilon_com * p_gamma[g] ;
-        comp_M[i+g] += comp_diffM[i+g];
+        comp_diffM[i+g] += comp_diffC[i] .* epsilon_global * p_gamma[g] ;
+        comp_diffN[i+g] += comp_diffD[i] .* epsilon_com * p_gamma[g] ;
       }
     }
-    //compute D and diffD
-    for(i in 1:S){
-      comp_D[i] = (1.0-psi)/psi * comp_C[i];
-      comp_diffD[i] = (1.0-psi)/psi * comp_diffC[i];
+    // cumulative sum
+    for(i in 1:(S+G)) {
+      for(k in 1:K) {
+        comp_M[i,k] = sum(comp_diffM[1:i,k]);
+        comp_N[i,k] = sum(comp_diffN[1:i,k]);
+      }
     }
-
     // compute outcomes (again, 1.0E-9 correction to avoid negative values in the lagged differences)
     for(i in t_data:S){
       output_incidence_cases[i-t_data+1] = sum(comp_diffC[i].*rho);
@@ -229,27 +232,21 @@ transformed parameters {
     }
     output_agedistr_cases = (comp_C[S,].*rho) ./ sum(comp_C[S,].*rho);
     output_agedistr_deaths = (comp_M[S,]) ./ sum(comp_M[S,]);
-    output_report_com_n = sum(comp_C[S,]);
-    output_report_com_p = sum(com_dist .* rho);
-    output_death_com_n = sum(comp_M[S,]);
-    output_death_com_p = sum(com_dist .* p_death_com);
-    output_report_com_mean = output_report_com_n * output_report_com_p;
-    output_report_com_var = output_report_com_n * output_report_com_p * (1 - output_report_com_p);
-    output_death_com_mean = output_death_com_n * output_death_com_p;
-    output_death_com_var = output_death_com_n * output_death_com_p * (1 - output_death_com_p);
+    output_prop_cases_with_comorbidity = sum(comp_D[S].*rho)/sum(comp_C[S].*rho);
+    output_prop_deaths_with_comorbidity = sum(comp_N[S])/sum(comp_M[S]); 
 }
 model {
   // priors
   beta ~ beta(p_beta,p_beta);
   eta ~ beta(p_eta[1],p_eta[2]);
   for(k in 1:K) epsilon[k] ~ beta(p_epsilon[1],p_epsilon[2]);
-  for(k in 1:(K-1)) rho[k] ~ beta(p_rho[1],p_rho[2]);
+  for(k in 1:K) rho[k] ~ beta(p_rho[1],p_rho[2]);
   pi ~ beta(p_pi[1],p_pi[2]);
   phi ~ exponential(p_phi);
   xi_raw ~ beta(p_xi,p_xi); 
   nu ~ exponential(p_nu);
   psi ~ beta(p_psi[1],p_psi[2]);
-  chi ~ normal(0,p_chi);
+  chi ~ cauchy(0,p_chi);
   // debug
   if(doprint==1) {
     print("beta: ",beta);
@@ -271,8 +268,8 @@ model {
     }
     target += multinomial_lpmf(agedistr_cases | output_agedistr_cases);
     target += multinomial_lpmf(agedistr_deaths | output_agedistr_deaths);
-    target += normal_lpdf(comdistr_cases | output_report_com_mean, output_report_com_var);
-    target += normal_lpdf(comdistr_deaths | output_death_com_mean, output_death_com_var);
+    target += binomial_lpmf(k_cases_comorbidity| n_cases_comorbidity, output_prop_cases_with_comorbidity);
+    target += binomial_lpmf(k_deaths_comorbidity| n_deaths_comorbidity, output_prop_deaths_with_comorbidity);
   }
 }
 

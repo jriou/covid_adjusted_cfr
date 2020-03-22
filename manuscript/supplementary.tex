@@ -20,7 +20,7 @@
 \usepackage{rotating}
 \bibliographystyle{vancouver}
 
-\title{Supplementary appendix to: \\ {\Large Adjusted age-specific case fatality ratio during the COVID-19 epidemic in Hubei, China, January and February 2020}}
+\title{Supplementary appendix to: \\ {\Large Adjusted age-specific mortality associated with COVID-19: a modelling study}}
 
 
 \begin{document}
@@ -29,15 +29,57 @@
 	
 	\section{Introduction}
 	
-	We model the dynamics of the COVID-19 epidemic in Hubei by date of disease onset from 1 January 2020 to 11 February 2020. 
+	We developed an approach aimed at estimating the true mortality associated with COVID-19.
+	With regards to a specific epidemic, the model relies upon data on cases by date of disease onset, mortality by date of death, and the age distribution of both cases and deaths.
 	In a first step, we use an age-stratified susceptible-exposed-infected-removed (SEIR) compartmental model to describe the dynamics of transmission of the virus in the population of Hubei, including the decrease in incidence after the introduction of control measures on 20 January.
 	In a second step, we estimate the mortality of infected individuals with regards to the probability of dying upon infection and the delay between symptom onset and death. 
 	We fit the model to data on the time dynamics and the age distribution of both reported cases and deaths.
 	We implemented the model in a Bayesian framework using Stan. 
 	All code and data are available from \underline{\smash{\url{https://github.com/jriou/covid_adjusted_cfr/}}}.
+	We applied this approach to COVID-19 epidemics in three different settings where appropriate data is available: Hubei, China, Northern Italy and South Korea.
 	
 	\section{Data}
 	
+	\subsection{General data}
+	
+	Some data and parameter values are not specific to the area considered.
+	The mean incubation period was fixed to 5.9 days, following a study of cases and their contacts in Shenzhen, China \cite{Bi2020}.
+	The mean time from disease onset to isolation was fixed to 2.4 days, following the same Shenzhen study \cite{Bi2020}.
+	Other works have reported very similar values for both periods \cite{lauerincubation,linton2020incubation,backer2020incubation}.
+	These values were transformed into rates and used in the system of ordinary differential equations (see below).
+	As such, this results in exponential distributions of incubation times and time from disease onset to isolation, which is acceptable considering our aims.
+	
+	Conversely, one of the main objectives of this work was to account for bias due to the delay between disease onset and death.
+	For the time from disease onset to death, we used a log-normal distribution with mean 20.2 and standard deviation 11.6 estimated from patient data and accounting from right-censoring \cite{linton2020incubation}.
+	This continuous probability distribution was discretized by day in order to be used in the model (Figure \ref{fig:distribution_onset_to_death}).
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics{../format_output/figures/distribution_onset_to_death.pdf}
+		\caption{Probability density function of the time from disease onset to death (red) and corresponding discretization by day between 1 and 60 days (columns).}
+		\label{fig:distribution_onset_to_death}
+	\end{figure}
+	
+	\subsection{Hubei, China}
+	We model the dynamics of the COVID-19 epidemic in Hubei from January 1st to February 11th, 2020, considering the introduction of strong control measures from January 20th \cite{ChinaJointMissiononCoronavirusDisease2019Group2020}. 
+	Our analysis was based on a report published by the Chinese CDC describing all chinese COVID-19 cases reported up to February 11th, 2020 \cite{Team2020}.
+	From this report, we extracted the number of confirmed cases of COVID-19 by day of disease onset (Figure ) 
+	
+	\begin{figure}[b]
+		\centering
+		\includegraphics{../format_output/figures/china_case_incidence.pdf}
+		\caption{Probability density function of the time from disease onset to death (red) and corresponding discretization by day between 1 and 60 days (columns).}
+		\label{fig:china_case_incidence.pdf}
+	\end{figure}
+	
+	 publication of the Chinese CDC, 
+	
+	
+	
+	\subsection{Northern Italy}
+	
+	\subsection{South Korea}
 	
 	\begin{table}[h]
 		\centering
@@ -53,7 +95,7 @@
 			$\mathds{E}$ & Age distribution of the population in China & see Fig \ref{fig:data}C & - & \cite{Worldometers.info} \\
 			$\mathds{F}$ & $9\times 9$ matrix with contacts between each age class in Shanghai &  see Fig\ref{fig:data}D & per day & \cite{Zhang2019} \\  
 			$\mathds{G}$ & Distribution of time from disease onset to death & $\text{log-}\mathcal{N}(20.2,11.6)$ & days & \cite{Linton2020a} \\
-			$1/\tau$ & Incubation period & 5.95 & days &  \cite{Bi2020} \\
+			$1/\tau$ & Incubation period & 5.9 & days &  \cite{Bi2020} \\
 %			$\psi$ & Proportion of symptomatics & $\text{Beta}(71,18)$ & - & \cite{Bi2020} \\
 			$1/\mu$ & Time from disease onset to isolation & 2.4 & days & \cite{Bi2020} \\
 			\hline 

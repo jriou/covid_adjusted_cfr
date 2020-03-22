@@ -1,5 +1,30 @@
 \begin{thebibliography}{1}
 
+\bibitem{Bi2020}
+Bi Q, Wu Y, Mei S, Ye C, Zou X, Zhang Z, et~al.
+\newblock {Epidemiology and Transmission of COVID-19 in Shenzhen China:
+  Analysis of 391 cases and 1,286 of their close contacts}.
+\newblock medRxiv. 2020 mar;p. 2020.03.03.20028423.
+
+\bibitem{lauerincubation}
+Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith HR, et~al.
+\newblock The Incubation Period of Coronavirus Disease 2019 (COVID-19) From
+  Publicly Reported Confirmed Cases: Estimation and Application.
+\newblock Annals of Internal Medicine;.
+
+\bibitem{linton2020incubation}
+Linton NM, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov AR, Jung Sm, et~al.
+\newblock Incubation Period and Other Epidemiological Characteristics of 2019
+  Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of
+  Publicly Available Case Data.
+\newblock Journal of Clinical Medicine. 2020;9(2):538.
+
+\bibitem{backer2020incubation}
+Backer JA, Klinkenberg D, Wallinga J.
+\newblock Incubation period of 2019 novel coronavirus (2019-nCoV) infections
+  among travellers from Wuhan, China, 20--28 January 2020.
+\newblock Eurosurveillance. 2020;25(5).
+
 \bibitem{Team2020}
 Team TNCPERE.
 \newblock {Vital Surveillances: The Epidemiological Characteristics of an
@@ -24,12 +49,6 @@ Linton NM, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov AR, Jung Sm, et~al.
 \newblock {Epidemiological characteristics of novel coronavirus infection: A
   statistical analysis of publicly available case data}.
 \newblock medRxiv. 2020;.
-
-\bibitem{Bi2020}
-Bi Q, Wu Y, Mei S, Ye C, Zou X, Zhang Z, et~al.
-\newblock {Epidemiology and Transmission of COVID-19 in Shenzhen China:
-  Analysis of 391 cases and 1,286 of their close contacts}.
-\newblock medRxiv. 2020 mar;p. 2020.03.03.20028423.
 
 \bibitem{diamond2}
 {Japanese Ministry of Health}. {Situation report of 10 March 2020}; 2020.

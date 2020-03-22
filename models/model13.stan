@@ -125,14 +125,13 @@ transformed data {
   for(k in 1:K) {
     x_r[3 + K*K + k] = age_dist[k];
   }
-  
 }
 
 parameters{
   real<lower=0,upper=1> beta; // base transmission rate
   real<lower=0,upper=1> eta; // reduction in transmission rate after quarantine measures
   vector<lower=0,upper=1> [K] epsilon; // age-dependent mortality probability
-  vector<lower=0,upper=1> [K-1] rho; // age-dependent reporting probability
+  vector<lower=0,upper=1> [K-1] raw_rho; // age-dependent reporting probability
   real<lower=0, upper=1> pi; // number of cases at t0
   real<lower=0> phi[2]; // variance parameters
   real<lower=0,upper=1> xi_raw; // slope of quarantine implementation
@@ -141,7 +140,7 @@ parameters{
 }
 transformed parameters {
   // transformed parameters
-  vector[K] rho_K;
+  vector[K] rho;
   real xi = xi_raw+0.5;
   // change of format for integrate_ode_rk45
   real theta[6]; // vector of parameters
@@ -161,11 +160,11 @@ transformed parameters {
   simplex[K] output_agedistr_cases; // final age distribution of cases
   simplex[K] output_agedistr_deaths; // final age distribution of deaths
   
-  // transformed parameters
+  // transformed paremeters
   for(i in 1:(K-1)){
-    rho_K[i]=rho[i];
+    rho[i]=raw_rho[i];
   }
-  rho_K[K]=1.0;
+  rho[K] = 1.0;
   // change of format for integrate_ode_rk45
   theta[1:6] = {beta,eta,xi,nu,pi,psi};
   // run ODE solver
@@ -196,13 +195,17 @@ transformed parameters {
     //set diffM and M to 0
     for(i in 1:(G+S)){
       comp_diffM[i] = rep_vector(1.0E-9,K);
-      comp_M[i] = rep_vector(1.0E-9,K);
     }
     //compute mortality
     for(i in 1:S) {
       for(g in 1:G) {
         comp_diffM[i+g] += comp_diffC[i] .* epsilon * p_gamma[g] ;
-        comp_M[i+g] += comp_diffM[i+g];
+      }
+    }
+    // cumulative sum
+    for(i in 1:(S+G)) {
+      for(k in 1:K) {
+        comp_M[i,k] = sum(comp_diffM[1:i,k]);
       }
     }
     //compute D and diffD
@@ -210,13 +213,12 @@ transformed parameters {
       comp_D[i] = (1.0-psi)/psi * comp_C[i];
       comp_diffD[i] = (1.0-psi)/psi * comp_diffC[i];
     }
-
     // compute outcomes (again, 1.0E-9 correction to avoid negative values in the lagged differences)
     for(i in t_data:S){
-      output_incidence_cases[i-t_data+1] = sum(comp_diffC[i].*rho_K);
+      output_incidence_cases[i-t_data+1] = sum(comp_diffC[i].*rho);
       output_incidence_deaths[i-t_data+1] = sum(comp_diffM[i]);
     }
-    output_agedistr_cases = (comp_C[S,].*rho_K) ./ sum(comp_C[S,].*rho_K);
+    output_agedistr_cases = (comp_C[S,].*rho) ./ sum(comp_C[S,].*rho);
     output_agedistr_deaths = (comp_M[S,]) ./ sum(comp_M[S,]);
 }
 model {
@@ -224,7 +226,7 @@ model {
   beta ~ beta(p_beta,p_beta);
   eta ~ beta(p_eta[1],p_eta[2]);
   for(k in 1:K) epsilon[k] ~ beta(p_epsilon[1],p_epsilon[2]);
-  for(k in 1:(K-1)) rho[k] ~ beta(p_rho[1],p_rho[2]);
+  for(k in 1:(K-1)) raw_rho[k] ~ beta(p_rho[1],p_rho[2]);
   pi ~ beta(p_pi[1],p_pi[2]);
   phi ~ exponential(p_phi);
   xi_raw ~ beta(p_xi,p_xi); 
@@ -255,7 +257,7 @@ model {
 }
 
 generated quantities{
-  real avg_rho = sum(age_dist .* rho_K);
+  real avg_rho = sum(age_dist .* rho);
   real beta2 = beta*eta;
   
   int predicted_reported_incidence_symptomatic_cases[S]; 
@@ -294,15 +296,15 @@ generated quantities{
   real cfr_D_all; //cfr by age classes, correction of underreporting and asymptomatics, correction of time lag
   
   for(i in 1:S){
-    predicted_reported_incidence_symptomatic_cases[i] = neg_binomial_2_rng(sum(comp_diffC[i].*rho_K), sum(comp_diffC[i].*rho_K)/phi[1]);
+    predicted_reported_incidence_symptomatic_cases[i] = neg_binomial_2_rng(sum(comp_diffC[i].*rho), sum(comp_diffC[i].*rho)/phi[1]);
     predicted_overall_incidence_symptomatic_cases[i] = predicted_reported_incidence_symptomatic_cases[i] / avg_rho;
     predicted_overall_incidence_all_cases[i] = predicted_reported_incidence_symptomatic_cases[i] / avg_rho / psi;
   }
   for(i in 1:(S+G)) predicted_overall_incidence_deaths[i] = neg_binomial_2_rng(sum(comp_diffM[i]),sum(comp_diffM[i])/phi[2]);
   for(i in 1:S) {
     predicted_comp_reported_diffC[i] = predicted_reported_incidence_symptomatic_cases[i] == 0 ? rep_array(0,K) : multinomial_rng(output_agedistr_cases,predicted_reported_incidence_symptomatic_cases[i]);
-    predicted_comp_overall_diffC[i] = to_vector(predicted_comp_reported_diffC[i]) ./ rho_K;
-    predicted_comp_overall_diffA[i] = to_vector(predicted_comp_reported_diffC[i]) ./ rho_K * (1-psi) / psi;
+    predicted_comp_overall_diffC[i] = to_vector(predicted_comp_reported_diffC[i]) ./ rho;
+    predicted_comp_overall_diffA[i] = to_vector(predicted_comp_reported_diffC[i]) ./ rho * (1-psi) / psi;
   }
   for(i in 1:(S+G)) predicted_comp_diffM[i] = predicted_overall_incidence_deaths[i] == 0 ? rep_array(0,K) : multinomial_rng(output_agedistr_deaths,predicted_overall_incidence_deaths[i]);
   for(i in 1:K) {
