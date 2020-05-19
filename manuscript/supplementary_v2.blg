@@ -2,73 +2,62 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: supplementary_v2.aux
 The style file: vancouver.bst
+I found no \bibdata command---while reading file supplementary_v2.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Database file #1: sup_bib.bib
-Repeated entry---line 542 of file sup_bib.bib
- : @misc{Worldometers.info
- :                        ,
-I'm skipping whatever remains of this entry
-Warning--empty year in lauerincubation
-Warning--empty author and editor in jointmission
-Warning--missing publisher in jointmission
-Warning--empty author and editor in ihme
-Warning--missing publisher in ihme
-Warning--empty author and editor in Civile
-Warning--missing publisher in Civile
-Warning--there's a month but no year in Civile
-Warning--empty author and editor in IstitutoSuperiorediSanita
-Warning--missing publisher in IstitutoSuperiorediSanita
-Warning--there's a month but no year in IstitutoSuperiorediSanita
-Warning--empty author and editor in Worldometers.info
-Warning--missing publisher in Worldometers.info
-Warning--there's a month but no year in Worldometers.info
-Warning--empty author and editor in UNCTAD
-Warning--missing publisher in UNCTAD
-Warning--there's a month but no year in UNCTAD
-Warning--empty author and editor in diamond2
-Warning--missing publisher in diamond2
-You've used 19 entries,
+Warning--I didn't find a database entry for "Bi2020"
+Warning--I didn't find a database entry for "lauerincubation"
+Warning--I didn't find a database entry for "linton2020incubation"
+Warning--I didn't find a database entry for "backer2020incubation"
+Warning--I didn't find a database entry for "jointmission"
+Warning--I didn't find a database entry for "Team2020"
+Warning--I didn't find a database entry for "zhang2019patterns"
+Warning--I didn't find a database entry for "ihme"
+Warning--I didn't find a database entry for "Civile"
+Warning--I didn't find a database entry for "IstitutoSuperiorediSanita"
+Warning--I didn't find a database entry for "Worldometers.info"
+Warning--I didn't find a database entry for "mossong2008social"
+You've used 0 entries,
             3170 wiz_defined-function locations,
-            742 strings with 9708 characters,
-and the built_in function-call counts, 43512 in all, are:
-= -- 5296
-> -- 312
-< -- 1
-+ -- 158
-- -- 78
-* -- 3849
-:= -- 4711
-add.period$ -- 69
-call.type$ -- 19
-change.case$ -- 6
+            654 strings with 4678 characters,
+and the built_in function-call counts, 30 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 19
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 2835
-empty$ -- 4275
-format.name$ -- 89
-if$ -- 10104
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 206
-newline$ -- 99
-num.names$ -- 19
-pop$ -- 354
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 458
+skip$ -- 1
 stack$ -- 0
-substring$ -- 9631
-swap$ -- 467
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 19
-while$ -- 167
-width$ -- 21
-write$ -- 210
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
 (There was 1 error message)

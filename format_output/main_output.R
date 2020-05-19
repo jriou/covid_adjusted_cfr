@@ -19,6 +19,33 @@ col.deaths2 =  "darkgoldenrod1"
 l = load("posterior_samples/model13_2020-03-13.Rdata")
 l = load("posterior_samples/model13IT_2020-03-16.Rdata")
 
+
+# Text ----
+
+#crude CFR
+sum(D_S_model13B$incidence_deaths)/sum(D_S_model13B$incidence_cases) *100
+## reduction in transmissibility after 20 Jan
+1 - summary(S_model13B,"eta",digits_summary = 5)[[1]]
+## total symptomatic cases
+print(S_model13B,"predicted_total_overall_symptomatic_cases")
+summary(S_model13B,"predicted_total_overall_symptomatic_cases")[[1]] / sum(D_S_model13B$incidence_cases) 
+## reporting rate by age
+print(S_model13B,"beta")
+print(S_model13B,"rho")
+## proportion symptomatic (data)
+print(S_model13B,"psi")
+## total cases
+print(S_model13B,"predicted_total_overall_all_cases")
+## CFR among symptomatics
+print(S_model13B,"cfr_D_symptomatic",digits_summary = 4)
+## CFR among all
+print(S_model13B,"cfr_D_all",digits_summary = 4)
+## CFR among all by age
+print(S_model13B,"cfr_D_all_by_age",digits_summary = 4)
+## CFR among symptomatics by age
+print(S_model13B,"cfr_D_symptomatic_by_age",digits_summary = 4)
+summary(S_model13B,"cfr_D_symptomatic_by_age",digits_summary = 4)[[1]] * 100
+
 # Figure 1: data ----
 # China
 source("data/china/data_management_china.R")

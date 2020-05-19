@@ -19,6 +19,18 @@ age_dist = read_excel("data/age_structure.xlsx") %>%
   pull(n)
 age_dist = age_dist/sum(age_dist)
 
+age_dist = read_csv("data/age_structure.csv") %>%
+  filter(country=="Italy") %>%
+  gather("age","n",3:23) %>%
+  mutate(n2=as.numeric(n),age2=c(0,0,10,10,20,20,30,30,40,40,50,50,60,60,70,70,80,80,80,80,80)) %>%
+  group_by(age2) %>%
+  summarise(n=sum(n)) %>%
+  pull(n)
+age_dist = age_dist/sum(age_dist)
+
+
+
+
 ## Population in Lombardia + Emilia Romagna + Veneto + Marche + Piemonte ----
 # (Source Eurostat 2018)
 

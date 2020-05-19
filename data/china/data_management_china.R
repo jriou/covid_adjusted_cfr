@@ -1,4 +1,5 @@
 # Setup ----
+library(nCov2019)
 source("setup.R")
 
 # Controls ----
@@ -8,7 +9,7 @@ day_data = as.Date("2020-01-01")
 day_max = as.Date("2020-02-11")
 day_quarantine = as.Date("2020-01-20")
 
-
+#https://www.thelancet.com/cms/10.1016/S1473-3099(20)30230-9/attachment/c57e058c-7e7a-4817-b4f4-0a228c28fe09/mmc1.pdf
 ## Age distribution in China for 9 age classes ----
 
 # (https://www.worldometers.info/demographics/china-demographics/) 
@@ -82,6 +83,8 @@ prop_cases_tmax = cases_tmax / sum(cases_tmax)
 mort_tmax = c(0,1,7,18,38,130,309,312,208)
 prop_mort_tmax = mort_tmax / sum(mort_tmax)
 
+agedistr_cases=cases_tmax
+agedistr_deaths=mort_tmax
 
 ## Comorbidities among cases and deaths ----
 
@@ -171,5 +174,20 @@ laterdeaths = read.csv("data/china/time_series_19-covid-Deaths.csv") %>%
          deaths=mort-lag(mort,1,default = 0)) 
   
   
-  
-  
+#China, Hubei
+# x <- load_nCov2019(lang='en')
+# d<-x[1]
+# d<-filter(d,province=="Hubei") %>%
+#   group_by(time) %>%
+#   summarise(deaths=sum(cum_dead),cases=sum(cum_confirm)) %>%
+#   mutate(new_deaths=c(0,diff(deaths)),new_cases=c(0,diff(cases)))
+# save(d,file="data/china/hubei_cases.RData")
+load("data/china/hubei_cases.RData")
+ggplot(data=d,aes(x=time,y=new_deaths))+geom_bar(fill="grey",stat="identity")
+ggplot(data=d,aes(x=time,y=new_cases))+geom_bar(fill="grey",stat="identity")
+
+incidence_cases_report<-filter(d,time<=day_max,time>=day_data) %>%
+  pull(new_cases)
+
+
+

@@ -1,0 +1,185 @@
+\begin{thebibliography}{10}
+
+\bibitem{Worldometers.info}
+info W. {Age-distribution in China};.
+\newblock Available from:
+  \url{https://www.worldometers.info/demographics/china-demographics/}.
+
+\bibitem{UNCTAD}
+UNCTAD. {Handbook of Statistics};.
+\newblock Accessed: 2020-03-22.
+\newblock \url{https://unctadstat.unctad.org/EN/Index.html}.
+
+\bibitem{Zhang2019}
+Zhang, Juanjuan, Klepac, Petra, Read, M J, et~al.
+\newblock {Patterns of human social contact and contact with animals in
+  Shanghai and China}.
+\newblock Scientific Reports. 2019 dec;9(1):1--11.
+
+\bibitem{Mossong2008}
+Mossong J, Hens N, Jit M, Beutels P, Auranen K, Mikolajczyk R, et~al.
+\newblock {Social Contacts and Mixing Patterns Relevant to the Spread of
+  Infectious Diseases}.
+\newblock PLoS Medicine. 2008 mar;5(3):e74.
+\newblock Available from:
+  \url{https://dx.plos.org/10.1371/journal.pmed.0050074}.
+
+\bibitem{Linton2020a}
+Linton NM, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov AR, Jung Sm, et~al.
+\newblock {Epidemiological characteristics of novel coronavirus infection: A
+  statistical analysis of publicly available case data}.
+\newblock medRxiv. 2020;.
+
+\bibitem{bi2020epidemiology}
+Bi Q, Wu Y, Mei S, Ye C, Zou X, Zhang Z, et~al.
+\newblock {Epidemiology and Transmission of COVID-19 in Shenzhen China:
+  Analysis of 391 cases and 1,286 of their close contacts}.
+\newblock {Lancet Inf Dis}. 2020 April;.
+
+\bibitem{li2020early}
+Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et~al.
+\newblock Early transmission dynamics in Wuhan, China, of novel
+  coronavirus--infected pneumonia.
+\newblock New England Journal of Medicine. 2020;.
+
+\bibitem{linton2020incubation}
+Linton NM, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov AR, Jung Sm, et~al.
+\newblock Incubation Period and Other Epidemiological Characteristics of 2019
+  Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of
+  Publicly Available Case Data.
+\newblock Journal of Clinical Medicine. 2020;9(2):538.
+
+\bibitem{liu2020contribution}
+Liu Y, Funk S, Flasche S, et~al.
+\newblock The contribution of pre-symptomatic infection to the transmission
+  dynamics of COVID-2019.
+\newblock Wellcome Open Research. 2020;5(58):58.
+
+\bibitem{zhang2020evolving}
+Zhang J, Litvinova M, Wang W, Wang Y, Deng X, Chen X, et~al.
+\newblock Evolving epidemiology of novel coronavirus diseases 2019 and possible
+  interruption of local transmission outside Hubei Province in China: a
+  descriptive and modeling study.
+\newblock medRxiv. 2020;.
+
+\bibitem{ganyani2020estimating}
+Ganyani T, Kremer C, Chen D, Torneri A, Faes C, Wallinga J, et~al.
+\newblock Estimating the generation interval for COVID-19 based on symptom
+  onset data.
+\newblock medRxiv. 2020;.
+
+\bibitem{he2020temporal}
+He X, Lau EH, Wu P, Deng X, Wang J, Hao X, et~al.
+\newblock Temporal dynamics in viral shedding and transmissibility of COVID-19.
+\newblock Nature medicine. 2020;p. 1--4.
+
+\bibitem{Linton2020}
+Linton NM, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov AR, Jung Sm, et~al.
+\newblock {Incubation Period and Other Epidemiological Characteristics of 2019
+  Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of
+  Publicly Available Case Data}.
+\newblock Journal of Clinical Medicine. 2020;9(2):538.
+
+\bibitem{read2014social}
+Read JM, Lessler J, Riley S, Wang S, Tan LJ, Kwok KO, et~al.
+\newblock Social mixing patterns in rural and urban areas of southern China.
+\newblock Proceedings of the Royal Society B: Biological Sciences.
+  2014;281(1785):20140268.
+
+\bibitem{prem2017projecting}
+Prem K, Cook AR, Jit M.
+\newblock Projecting social contact matrices in 152 countries using contact
+  surveys and demographic data.
+\newblock PLoS computational biology. 2017;13(9):e1005697.
+
+\bibitem{arregui2018projecting}
+Arregui S, Aleta A, Sanz J, Moreno Y.
+\newblock Projecting social contact matrices to different demographic
+  structures.
+\newblock PLoS computational biology. 2018;14(12):e1006638.
+
+\bibitem{mossong2008social}
+Mossong J, Hens N, Jit M, Beutels P, Auranen K, Mikolajczyk R, et~al.
+\newblock Social contacts and mixing patterns relevant to the spread of
+  infectious diseases.
+\newblock PLoS medicine. 2008;5(3).
+
+\bibitem{BundesministeriumfurSozialesGesundheit}
+{Bundesministerium f{\"{u}}r Soziales, Gesundheit, Pflege und
+  Konsumentenschutz}. {Amtliches Dashboard COVID19};.
+\newblock Available from: \url{https://info.gesundheitsministerium.at/}.
+
+\bibitem{Team2020}
+{The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team}.
+\newblock {Vital Surveillances: The Epidemiological Characteristics of an
+  Outbreak of 2019 Novel Coronavirus Diseases (COVID-19) — China, 2020}.
+\newblock China CDC Weekly. 2020;2(8):113--122.
+\newblock Available from:
+  \url{http://weekly.chinacdc.cn/en/article/id/e53946e2-c6c4-41e9-9a9b-fea8db1a8f51}.
+
+\bibitem{rpackagecoronavirus}
+{Rami Krispin}. {R package 'Coronavirus'}; 2020.
+\newblock Accessed: 2020-05-15.
+\newblock \url{https://ramikrispin.github.io/coronavirus/}.
+
+\bibitem{Civile}
+{Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile}.
+  {GitHub repository on COVID-19};.
+\newblock Accessed: 2020-04-29.
+\newblock \url{https://github.com/pcm-dpc}.
+
+\bibitem{IstitutoSuperiorediSanita}
+{Istituto Superiore di Sanita}.
+\newblock {EPIDEMIA COVID-19, Aggiornamento nazionale (appendice), 28 aprile
+  2020 – ore 16:00};.
+
+\bibitem{RobertKochInstitute}
+{Robert Koch Institute}.
+\newblock {Epidemiological Situation in Germany};.
+\newblock Available from: \url{https://corona.rki.de.}
+
+\bibitem{MinisteriodeSanidad}
+{Ministerio de Sanidad}.
+\newblock {Actualizaci{\'{o}}n n{\textordmasculine} 89. Enfermedad por el
+  coronavirus (COVID-19). 28.04.2020};.
+
+\bibitem{FederalofficeofPublicHealth}
+{Federal office of Public Health}.
+\newblock {Personal communication from Federal office of Public Healths (FOPH),
+  Switzerland, through SSPHplus website};.
+
+\bibitem{Carpenter2017}
+Carpenter B, Gelman A, Hoffman MD, Lee D, Goodrich B, Betancourt M, et~al.
+\newblock {Stan: A probabilistic programming language}.
+\newblock Journal of statistical software. 2017;76(1).
+
+\bibitem{anderson1992infectious}
+Anderson RM, Anderson B, May RM.
+\newblock Infectious diseases of humans: dynamics and control.
+\newblock Oxford university press; 1992.
+
+\bibitem{svensson2007note}
+Svensson {\AA}.
+\newblock A note on generation times in epidemic models.
+\newblock Mathematical biosciences. 2007;208(1):300--311.
+
+\bibitem{liu2020}
+Liu T, Hu J, Kang M, Lin L, Zhong H, Xiao J, et~al.. {Transmission dynamics of
+  2019 novel coronavirus (2019-nCoV)}; 2020.
+\newblock Available from: \url{https://ssrn.com/abstract=3526307}.
+
+\bibitem{buitrago2020role}
+Buitrago-Garcia DC, Egli-Gany D, Counotte MJ, Hossmann S, Imeri H, Salanti G,
+  et~al.
+\newblock The role of asymptomatic SARS-CoV-2 infections: rapid living
+  systematic review and meta-analysis.
+\newblock medRxiv. 2020;.
+
+\bibitem{tutorial}
+Grinsztajn L, Semenova E, Margossian CC, Riou J. {Bayesian workflow for disease
+  transmission modeling in Stan}; 2020.
+\newblock Accessed: 2020-05-15.
+\newblock
+  \url{https://mc-stan.org/users/documentation/case-studies/boarding_school_case_study.html}.
+
+\end{thebibliography}

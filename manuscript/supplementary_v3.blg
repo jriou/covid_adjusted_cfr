@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: supplementary_v3.aux
+The style file: vancouver.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sup_bib.bib
+Warning--empty author and editor in Worldometers.info
+Warning--missing publisher in Worldometers.info
+Warning--there's a month but no year in Worldometers.info
+Warning--empty author and editor in UNCTAD
+Warning--missing publisher in UNCTAD
+Warning--there's a month but no year in UNCTAD
+Warning--empty author and editor in BundesministeriumfurSozialesGesundheit
+Warning--missing publisher in BundesministeriumfurSozialesGesundheit
+Warning--there's a month but no year in BundesministeriumfurSozialesGesundheit
+Warning--empty author and editor in rpackagecoronavirus
+Warning--missing publisher in rpackagecoronavirus
+Warning--empty author and editor in Civile
+Warning--missing publisher in Civile
+Warning--there's a month but no year in Civile
+Warning--there's a month but no year in IstitutoSuperiorediSanita
+Warning--there's a month but no year in RobertKochInstitute
+Warning--there's a month but no year in MinisteriodeSanidad
+Warning--there's a month but no year in FederalofficeofPublicHealth
+Warning--empty author and editor in liu2020
+Warning--missing publisher in liu2020
+Warning--empty author and editor in tutorial
+Warning--missing publisher in tutorial
+You've used 31 entries,
+            3170 wiz_defined-function locations,
+            810 strings with 12306 characters,
+and the built_in function-call counts, 68102 in all, are:
+= -- 8317
+> -- 536
+< -- 1
++ -- 272
+- -- 134
+* -- 6014
+:= -- 7389
+add.period$ -- 108
+call.type$ -- 31
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 53
+duplicate$ -- 4633
+empty$ -- 6666
+format.name$ -- 154
+if$ -- 15810
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 330
+newline$ -- 154
+num.names$ -- 31
+pop$ -- 582
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 650
+stack$ -- 0
+substring$ -- 14859
+swap$ -- 677
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 22
+while$ -- 281
+width$ -- 33
+write$ -- 328
+(There were 22 warnings)

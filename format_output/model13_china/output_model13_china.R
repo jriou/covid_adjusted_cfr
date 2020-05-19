@@ -33,6 +33,7 @@ sum(D_S_model13B$incidence_deaths)/sum(D_S_model13B$incidence_cases) *100
 print(S_model13B,"predicted_total_overall_symptomatic_cases")
 summary(S_model13B,"predicted_total_overall_symptomatic_cases")[[1]] / sum(D_S_model13B$incidence_cases) 
 ## reporting rate by age
+print(S_model13B,"beta")
 print(S_model13B,"rho")
 ## proportion symptomatic (data)
 print(S_model13B,"psi")

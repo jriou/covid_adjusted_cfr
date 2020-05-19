@@ -1,0 +1,21 @@
+gt,psi,tau_1,tau_2,q_A,q_P,incubation,mu_A,mu_I,kappa = var('gt,psi,tau_1,tau_2,q_A,q_P,incubation,mu_A,mu_I,kappa')
+
+f1 = q_P == (1/tau_2)*kappa / ( (1/tau_2)*kappa + (1-psi)*kappa*1/mu_A + psi*1/mu_I)
+
+f2 = q_A == ((1-psi)*kappa*1/mu_A) / ( (1/tau_2)*kappa + (1-psi)*kappa*1/mu_A + psi*1/mu_I)
+
+f3 = gt == 1/tau_1 + q_P * 1/tau_2 + q_A * (1/tau_2+1/mu_A) + (1-q_P-q_A)*(1/tau_2+1/mu_I)
+
+solve([f1,f2,f3],mu_I,mu_A,kappa)
+
+
+
+
+mu_I == -((psi*tau_1 - tau_1)*q_P^2 + ((q_A*tau_1 - tau_1)*psi - q_A*tau_1 + tau_1)*q_P)*tau_2/(q_A^2*tau_1 + ((gt*tau_1 - 1)*psi - gt*tau_1 + 1)*q_P*tau_2 - (psi*tau_1 - tau_1)*q_P)
+
+mu_A == -(psi - 1)*q_P*tau_2/q_A
+
+kappa == (psi*q_A^2*tau_1 + ((gt*tau_1 - 1)*psi^2 - (gt*tau_1 - 1)*psi)*q_P*tau_2 - (psi^2*tau_1 - psi*tau_1)*q_P)/((psi*tau_1 - tau_1)*q_P^2 - q_A^2*tau_1 + (q_A^2*tau_1 - 2*q_A*tau_1 + tau_1)*psi + 2*((q_A*tau_1 - tau_1)*psi - q_A*tau_1 + tau_1)*q_P + 2*q_A*tau_1 - tau_1)
+
+k = (psi*q_A^2*tau_1 + ((gt*tau_1 - 1)*psi^2 - (gt*tau_1 - 1)*psi)*q_P*tau_2 - (psi^2*tau_1 - psi*tau_1)*q_P)/((psi*tau_1 - tau_1)*q_P^2 - q_A^2*tau_1 + (q_A^2*tau_1 - 2*q_A*tau_1 + tau_1)*psi + 2*((q_A*tau_1 - tau_1)*psi - q_A*tau_1 + tau_1)*q_P + 2*q_A*tau_1 - tau_1)
+k.full_simplify()

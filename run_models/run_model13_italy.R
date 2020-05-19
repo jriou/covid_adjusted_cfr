@@ -98,8 +98,8 @@ D_S_model13ITB = data_list_model13
 # system("scp /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/models/model13d.stan /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/sb_model13dIT* /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/run_models/data_S_model13dIT* UBELIX:projects/COVID_age/model/.")
 
 # Copy back posterior samples
-system("scp  UBELIX:projects/COVID_age/model/S_model13dIT-B_2020-03-18-14-37-50_*  /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/posterior_samples/.")
-system("scp  UBELIX:projects/COVID_age/model/data_S_model13dIT-B_2020-03-18-14-37-50.R /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/posterior_samples/.")
+system("scp  UBELIX:projects/COVID_age/model/S_model13dIT-B_2020-03-28-18-54-33_*  /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/posterior_samples/.")
+system("scp  UBELIX:projects/COVID_age/model/data_S_model13dIT-B_2020-03-28-18-54-33.R /home/julien/Dropbox/Unibe/covid-19/covid_adjusted_cfr/posterior_samples/.")
 
 # Load posterior samples 
 D_S_model13ITB = read_rdump("posterior_samples/data_S_model13dIT-B_2020-03-18-14-37-50.R")

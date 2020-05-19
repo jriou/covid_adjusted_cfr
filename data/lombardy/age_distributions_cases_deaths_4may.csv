@@ -1,0 +1,10 @@
+age_group,cases,deaths,source_cases,source_death
+0,298,2,https://www.epicentro.iss.it/coronavirus/bollettino/Bolletino-sorveglianza-integrata-COVID-19_28-aprile-2020_appendix.pdf,https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_28-aprile-2020.pdf
+10,293,0,source_cases,source_death
+20,2676,8,source_cases,source_death
+30,4602,49,source_cases,source_death
+40,8643,224,source_cases,source_death
+50,13005,918,source_cases,source_death
+60,11041,2727,source_cases,source_death
+70,13223,7291,source_cases,source_death
+80,20547,13996,source_cases,source_death

@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: manuscript_v3.aux
+The style file: vancouver.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sup_bib.bib
+Warning--empty author and editor in whoreport117
+Warning--missing publisher in whoreport117
+Warning--empty author and editor in whospeech
+Warning--missing publisher in whospeech
+Warning--empty author and editor in jointmission
+Warning--missing publisher in jointmission
+Warning--empty author in nCov2019
+Warning--empty author and editor in nCov2019
+Warning--missing publisher in nCov2019
+Warning--empty author and editor in BundesministeriumfurSozialesGesundheit
+Warning--missing publisher in BundesministeriumfurSozialesGesundheit
+Warning--there's a month but no year in BundesministeriumfurSozialesGesundheit
+Warning--there's a month but no year in RobertKochInstitute
+Warning--empty author and editor in Civile
+Warning--missing publisher in Civile
+Warning--there's a month but no year in Civile
+Warning--there's a month but no year in IstitutoSuperiorediSanita
+Warning--there's a month but no year in MinisteriodeSanidad
+Warning--there's a month but no year in FederalofficeofPublicHealth
+`journal' is a missing field, not a string, for entry updatebuitrago2020role
+while executing---line 1865 of file vancouver.bst
+Warning--empty journal in updatebuitrago2020role
+Warning--empty author and editor in JapaneseNationalInstituteofInfectiousDiseases2020
+Warning--missing publisher in JapaneseNationalInstituteofInfectiousDiseases2020
+`journal' is a missing field, not a string, for entry Stringhini1101
+while executing---line 1865 of file vancouver.bst
+Warning--empty journal in Stringhini1101
+Warning--there's a month but no year in MinisteriodeSanidad_sero
+Warning--empty author and editor in Dorigatti
+Warning--missing publisher in Dorigatti
+Warning--there's a month but no year in flaxman2020report
+You've used 40 entries,
+            3170 wiz_defined-function locations,
+            864 strings with 16821 characters,
+and the built_in function-call counts, 96969 in all, are:
+= -- 11851
+> -- 649
+< -- 1
++ -- 326
+- -- 162
+* -- 8766
+:= -- 10497
+add.period$ -- 141
+call.type$ -- 40
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 67
+duplicate$ -- 6132
+empty$ -- 9582
+format.name$ -- 187
+if$ -- 22452
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 419
+newline$ -- 198
+num.names$ -- 39
+pop$ -- 748
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 804
+stack$ -- 0
+substring$ -- 22152
+swap$ -- 859
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 27
+while$ -- 353
+width$ -- 42
+write$ -- 426
+(There were 2 error messages)

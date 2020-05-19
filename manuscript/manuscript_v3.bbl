@@ -1,0 +1,251 @@
+\begin{thebibliography}{10}
+
+\bibitem{whoreport117}
+{World Health Organization}. {Coronavirus disease 2019 (COVID-19) Situation
+  Report 117}; 2020.
+\newblock Accessed: 2020-05-17.
+\newblock
+  \url{https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200516-covid-19-sitrep-117.pdf?sfvrsn=8f562cc_2}.
+
+\bibitem{wang2020novel}
+Wang C, Horby PW, Hayden FG, Gao GF.
+\newblock A novel coronavirus outbreak of global health concern.
+\newblock The Lancet. 2020;395(10223):470--473.
+
+\bibitem{huang2020clinical}
+Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, et~al.
+\newblock Clinical features of patients infected with 2019 novel coronavirus in
+  Wuhan, China.
+\newblock The Lancet. 2020;395(10223):497--506.
+
+\bibitem{riou2020pattern}
+Riou J, Althaus CL.
+\newblock Pattern of early human-to-human transmission of Wuhan 2019 novel
+  coronavirus (2019-nCoV), December 2019 to January 2020.
+\newblock Eurosurveillance. 2020;25(4).
+
+\bibitem{whospeech}
+{World Health Organization}. {WHO Director-General's opening remarks at the
+  media briefing on COVID-19 - 3 March 2020}; 2020.
+\newblock Available from:
+  \url{https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---3-march-2020}.
+
+\bibitem{Lipsitch2015}
+Lipsitch M, Donnelly CA, Fraser C, Blake IM, Cori A, Dorigatti I, et~al.
+\newblock {Potential biases in estimating absolute and relative case-fatality
+  risks during outbreaks}.
+\newblock PLoS neglected tropical diseases. 2015;9(7).
+
+\bibitem{Battegay2020}
+Battegay M, Kuehl R, Tschudin-Sutter S, Hirsch HH, Widmer AF, Neher RA.
+\newblock {2019-novel Coronavirus (2019-nCoV): estimating the case fatality
+  rate–a word of caution}.
+\newblock Swiss Medical Weekly. 2020;150(0506).
+
+\bibitem{jointmission}
+{World Health Organization-China Joint Mission on Coronavirus Disease 2019
+  Group}. {Report of the WHO-China Joint Mission on Coronavirus Disease 2019
+  (COVID-19)}; 2020.
+\newblock Accessed: 2020-03-22.
+\newblock
+  \url{https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf}.
+
+\bibitem{Team2020}
+{The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team}.
+\newblock {Vital Surveillances: The Epidemiological Characteristics of an
+  Outbreak of 2019 Novel Coronavirus Diseases (COVID-19) — China, 2020}.
+\newblock China CDC Weekly. 2020;2(8):113--122.
+\newblock Available from:
+  \url{http://weekly.chinacdc.cn/en/article/id/e53946e2-c6c4-41e9-9a9b-fea8db1a8f51}.
+
+\bibitem{nCov2019}
+{nCov2019: An R package with real-time data and historical data and Shiny app};
+  2020.
+\newblock Accessed: 2020-03-22.
+\newblock \url{https://github.com/GuangchuangYu/nCov2019}.
+
+\bibitem{zhang2019patterns}
+Zhang J, Klepac P, Read JM, Rosello A, Wang X, Lai S, et~al.
+\newblock patterns of human social contact and contact with animals in
+  Shanghai, china.
+\newblock Scientific reports. 2019;9(1):1--11.
+
+\bibitem{BundesministeriumfurSozialesGesundheit}
+{Bundesministerium f{\"{u}}r Soziales, Gesundheit, Pflege und
+  Konsumentenschutz}. {Amtliches Dashboard COVID19};.
+\newblock Available from: \url{https://info.gesundheitsministerium.at/}.
+
+\bibitem{RobertKochInstitute}
+{Robert Koch Institute}.
+\newblock {Epidemiological Situation in Germany};.
+\newblock Available from: \url{https://corona.rki.de.}
+
+\bibitem{Civile}
+{Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile}.
+  {GitHub repository on COVID-19};.
+\newblock Accessed: 2020-04-29.
+\newblock \url{https://github.com/pcm-dpc}.
+
+\bibitem{IstitutoSuperiorediSanita}
+{Istituto Superiore di Sanita}.
+\newblock {EPIDEMIA COVID-19, Aggiornamento nazionale (appendice), 28 aprile
+  2020 – ore 16:00};.
+
+\bibitem{MinisteriodeSanidad}
+{Ministerio de Sanidad}.
+\newblock {Actualizaci{\'{o}}n n{\textordmasculine} 89. Enfermedad por el
+  coronavirus (COVID-19). 28.04.2020};.
+
+\bibitem{FederalofficeofPublicHealth}
+{Federal office of Public Health}.
+\newblock {Personal communication from Federal office of Public Healths (FOPH),
+  Switzerland, through SSPHplus website};.
+
+\bibitem{Mossong2008}
+Mossong J, Hens N, Jit M, Beutels P, Auranen K, Mikolajczyk R, et~al.
+\newblock {Social Contacts and Mixing Patterns Relevant to the Spread of
+  Infectious Diseases}.
+\newblock PLoS Medicine. 2008 mar;5(3):e74.
+\newblock Available from:
+  \url{https://dx.plos.org/10.1371/journal.pmed.0050074}.
+
+\bibitem{bi2020epidemiology}
+Bi Q, Wu Y, Mei S, Ye C, Zou X, Zhang Z, et~al.
+\newblock {Epidemiology and Transmission of COVID-19 in Shenzhen China:
+  Analysis of 391 cases and 1,286 of their close contacts}.
+\newblock {Lancet Inf Dis}. 2020 April;.
+
+\bibitem{buitrago2020role}
+Buitrago-Garcia DC, Egli-Gany D, Counotte MJ, Hossmann S, Imeri H, Salanti G,
+  et~al.
+\newblock The role of asymptomatic SARS-CoV-2 infections: rapid living
+  systematic review and meta-analysis.
+\newblock medRxiv. 2020;.
+
+\bibitem{updatebuitrago2020role}
+Counotte MJ.
+\newblock {Preliminary updated meta-analyses to
+  https://www.medrxiv.org/content/10.1101/2020.04.02.20051318v1}.
+  2020;Available from: \url{https://doi.org/10.7910/DVN/VA62TK}.
+
+\bibitem{JapaneseNationalInstituteofInfectiousDiseases2020}
+{Japanese National Institute of Infectious Diseases}. {Field Briefing: Diamond
+  Princess COVID-19 Cases}; 2020.
+\newblock Accessed: 2020-03-22.
+\newblock
+  \url{https://www.niid.go.jp/niid/en/2019-ncov-e/9407-covid-dp-fe-01.html}.
+
+\bibitem{linton2020incubation}
+Linton NM, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov AR, Jung Sm, et~al.
+\newblock Incubation Period and Other Epidemiological Characteristics of 2019
+  Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of
+  Publicly Available Case Data.
+\newblock Journal of Clinical Medicine. 2020;9(2):538.
+
+\bibitem{Carpenter2017}
+Carpenter B, Gelman A, Hoffman MD, Lee D, Goodrich B, Betancourt M, et~al.
+\newblock {Stan: A probabilistic programming language}.
+\newblock Journal of statistical software. 2017;76(1).
+
+\bibitem{pellis2020systematic}
+Pellis L, Cauchemez S, Ferguson NM, Fraser C.
+\newblock Systematic selection between age and household structure for models
+  aimed at emerging epidemic predictions.
+\newblock Nature Communications. 2020;11(1):1--11.
+
+\bibitem{riou2018improving}
+Riou J, Poletto C, Bo{\"e}lle PY.
+\newblock Improving early epidemiological assessment of emerging
+  Aedes-transmitted epidemics using historical data.
+\newblock PLoS neglected tropical diseases. 2018;12(6):e0006526.
+
+\bibitem{perez2009residual}
+P{\'e}rez-Trallero E, Pi{\~n}eiro L, Vicente D, Montes M, Cilla G.
+\newblock {Residual immunity in older people against the influenza A
+  (H1N1)--recent experience in northern Spain}.
+\newblock Eurosurveillance. 2009;14(39):19344.
+
+\bibitem{mizumoto2020estimating}
+Mizumoto K, Kagaya K, Zarebski A, Chowell G.
+\newblock {Estimating the asymptomatic proportion of coronavirus disease 2019
+  (COVID-19) cases on board the Diamond Princess cruise ship, Yokohama, Japan,
+  2020}.
+\newblock Eurosurveillance. 2020;25(10).
+\newblock Available from:
+  \url{https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.10.2000180}.
+
+\bibitem{carrat2008time}
+Carrat F, Vergu E, Ferguson NM, Lemaitre M, Cauchemez S, Leach S, et~al.
+\newblock Time lines of infection and disease in human influenza: a review of
+  volunteer challenge studies.
+\newblock American journal of epidemiology. 2008;167(7):775--785.
+
+\bibitem{Stringhini1101}
+Stringhini S, Wisniak A, Piumatti G, Azman AS, Baysson H, {De Ridder} D, et~al.
+\newblock {Repeated seroprevalence of anti-SARS-CoV-2 IgG antibodies in a
+  population-based sample from Geneva, Switzerland}. 2020;Available from:
+  \url{https://doi.org/10.1101/2020.05.02.20088898}.
+
+\bibitem{MinisteriodeSanidad_sero}
+{Ministerio de Sanidad}.
+\newblock {ESTUDIO ENE-COVID19: PRIMERA RONDA ESTUDIO NACIONAL DE
+  SERO-EPIDEMIOLOG{\'{I}}A DE LA INFECCI{\'{O}}N POR SARS-COV-2 EN
+  ESPA{\~{N}}A};.
+
+\bibitem{modi2020total}
+Modi C, Boehm V, Ferraro S, Stein G, Seljak U.
+\newblock Total COVID-19 Mortality in Italy: Excess Mortality and Age
+  Dependence through Time-Series Analysis.
+\newblock medRxiv. 2020;.
+
+\bibitem{verity2020estimates}
+Verity R, Okell LC, Dorigatti I, Winskill P, Whittaker C, Imai N, et~al.
+\newblock Estimates of the severity of coronavirus disease 2019: a model-based
+  analysis.
+\newblock The Lancet Infectious Diseases. 2020;.
+
+\bibitem{wu2020estimating}
+Wu JT, Leung K, Bushman M, Kishore N, Niehus R, de~Salazar PM, et~al.
+\newblock Estimating clinical severity of COVID-19 from the transmission
+  dynamics in Wuhan, China.
+\newblock Nature Medicine. 2020;p. 1--5.
+
+\bibitem{wang2020estimating}
+Wang X, Ma Z, Ning Y, Chen C, Chen R, Chen Q, et~al.
+\newblock Estimating the case fatality ratio of the COVID-19 epidemic in China.
+\newblock medRxiv. 2020;.
+
+\bibitem{jung2020real}
+Jung Sm, Akhmetzhanov AR, Hayashi K, Linton NM, Yang Y, Yuan B, et~al.
+\newblock Real-time estimation of the risk of death from novel coronavirus
+  (covid-19) infection: Inference using exported cases.
+\newblock Journal of clinical medicine. 2020;9(2):523.
+
+\bibitem{Dorigatti}
+Dorigatti I, Okell L, Cori A, Imai N, Baguelin M, Bhatia S. {Severity of 2019
+  novel coronavirus (nCoV)}; 2020.
+\newblock Accessed: 2020-03-22.
+\newblock
+  \url{https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-
+  College-2019-nCoV-severity-10-02-2020.pdf}.
+
+\bibitem{riou2020adjusted}
+Riou J, Hauser A, Counotte MJ, Althaus CL.
+\newblock {Adjusted age-specific case fatality ratio during the COVID-19
+  epidemic in Hubei, China, January and February 2020}.
+\newblock medRxiv.
+  2020;\url{https://www.medrxiv.org/content/10.1101/2020.03.04.20031104v1}
+  Accessed: 2020-03-22.
+
+\bibitem{hethcote2000mathematics}
+Hethcote HW.
+\newblock The mathematics of infectious diseases.
+\newblock SIAM review. 2000;42(4):599--653.
+
+\bibitem{flaxman2020report}
+Flaxman S, Mishra S, Gandy A, Unwin JT, Coupland H, Mellan TA, et~al.
+\newblock {Report 13: Estimating the number of infections and the impact of
+  non-pharmaceutical interventions on COVID-19 in 11 European countries};.
+\newblock Available from: \url{https://doi.org/10.25561/77731.}
+
+\end{thebibliography}
